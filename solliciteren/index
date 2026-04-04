@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eindhoven Roleplay | Solliciteren</title>
+    <meta
+      name="description"
+      content="Solliciteer bij Eindhoven Roleplay als Staff, Politie, Defensie of Ambulance. Word onderdeel van het team!"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://discord.gg" />
+    <link rel="dns-prefetch" href="https://eindhoven-roleplay.tebex.io" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="prefetch" href="/home" />
+    <link rel="prefetch" href="/apv" />
+  </head>
+  <body class="solliciteren-page">
+    <main>
+      <section class="sol-hero">
+        <div class="sol-hero-glow sol-hero-glow-1"></div>
+        <div class="sol-hero-glow sol-hero-glow-2"></div>
+        <div class="sol-hero-content">
+          <p class="eyebrow">SOLLICITEREN</p>
+          <h1>Sluit je aan bij het team</h1>
+          <p class="sol-hero-subtitle">
+            Eindhoven Roleplay is op zoek naar gemotiveerde teamleden.
+            Kies een afdeling en begin vandaag nog met je sollicitatie.
+          </p>
+        </div>
+      </section>
+
+      <section class="sol-cards-section">
+        <div class="sol-cards-grid">
+          <!-- Staff -->
+<div class="sol-card sol-card-staff">
+  <div class="sol-card-img-wrap">
+    <img src="../assets/images/favicon.png" alt="Staff" class="sol-card-img" loading="lazy" decoding="async" />
+  </div>
+  <div class="sol-card-body">
+    <div class="sol-card-badge">Open</div>
+    <h3>Staff</h3>
+    <p>Word stafflid en help mee aan de beste roleplay ervaring. Begeleid spelers, behandel tickets en houd de server eerlijk en leuk voor iedereen.</p>
+    
+    <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer" class="sol-card-btn sol-card-btn-discord">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M19.73 4.87A18.7 18.7 0 0 0 15.1 3.5a13 13 0 0 0-.64 1.3 17.5 17.5 0 0 0-4.92 0c-.19-.45-.41-.88-.64-1.3A18.6 18.6 0 0 0 4.27 4.87C1.6 8.9.88 12.83 1.23 16.7a18.6 18.6 0 0 0 5.53 2.8c.45-.62.85-1.27 1.2-1.95a12 12 0 0 1-1.9-.93c.16-.12.32-.24.47-.36a13.7 13.7 0 0 0 11 0c.16.12.32.24.47.36-.62.37-1.26.69-1.9.93.35.68.75 1.33 1.2 1.95a18.6 18.6 0 0 0 5.53-2.8c.48-4.48-.7-8.38-3.13-11.83ZM8.7 14.6c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Zm6.6 0c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Z"/>
+      </svg>
+      Support Discord
+    </a>
+  </div>
+</div>
+          <!-- Politie -->
+          <div class="sol-card sol-card-politie">
+            <div class="sol-card-img-wrap">
+              <img src="../assets/images/police.png" alt="Politie" class="sol-card-img" loading="lazy" decoding="async" />
+            </div>
+            <div class="sol-card-body">
+              <div class="sol-card-badge">Open</div>
+              <h3>Politie</h3>
+              <p>Bescherm de straten van Eindhoven als politieagent. Handhaving, opsporing en hulpverlening staan centraal in jouw dienst.</p>
+              <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer" class="sol-card-btn sol-card-btn-discord">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.73 4.87A18.7 18.7 0 0 0 15.1 3.5a13 13 0 0 0-.64 1.3 17.5 17.5 0 0 0-4.92 0c-.19-.45-.41-.88-.64-1.3A18.6 18.6 0 0 0 4.27 4.87C1.6 8.9.88 12.83 1.23 16.7a18.6 18.6 0 0 0 5.53 2.8c.45-.62.85-1.27 1.2-1.95a12 12 0 0 1-1.9-.93c.16-.12.32-.24.47-.36a13.7 13.7 0 0 0 11 0c.16.12.32.24.47.36-.62.37-1.26.69-1.9.93.35.68.75 1.33 1.2 1.95a18.6 18.6 0 0 0 5.53-2.8c.48-4.48-.7-8.38-3.13-11.83ZM8.7 14.6c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Zm6.6 0c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Z"/></svg>
+                Overheid Discord
+              </a>
+            </div>
+          </div>
+
+          <!-- Defensie / KMar -->
+          <div class="sol-card sol-card-defensie">
+            <div class="sol-card-img-wrap">
+              <img src="../assets/images/kmar.png" alt="Defensie" class="sol-card-img" loading="lazy" decoding="async" />
+            </div>
+            <div class="sol-card-body">
+              <div class="sol-card-badge">Open</div>
+              <h3>Defensie</h3>
+              <p>Verdedig Eindhoven als lid van de Koninklijke Marechaussee. Zorg voor nationale veiligheid, grensbewaking en orde in de stad.</p>
+              <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer" class="sol-card-btn sol-card-btn-discord">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.73 4.87A18.7 18.7 0 0 0 15.1 3.5a13 13 0 0 0-.64 1.3 17.5 17.5 0 0 0-4.92 0c-.19-.45-.41-.88-.64-1.3A18.6 18.6 0 0 0 4.27 4.87C1.6 8.9.88 12.83 1.23 16.7a18.6 18.6 0 0 0 5.53 2.8c.45-.62.85-1.27 1.2-1.95a12 12 0 0 1-1.9-.93c.16-.12.32-.24.47-.36a13.7 13.7 0 0 0 11 0c.16.12.32.24.47.36-.62.37-1.26.69-1.9.93.35.68.75 1.33 1.2 1.95a18.6 18.6 0 0 0 5.53-2.8c.48-4.48-.7-8.38-3.13-11.83ZM8.7 14.6c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Zm6.6 0c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Z"/></svg>
+                Overheid Discord
+              </a>
+            </div>
+          </div>
+
+          <!-- Ambulance -->
+          <div class="sol-card sol-card-ambulance">
+            <div class="sol-card-img-wrap">
+              <img src="../assets/images/ambulance.png" alt="Ambulance" class="sol-card-img" loading="lazy" decoding="async" />
+            </div>
+            <div class="sol-card-body">
+              <div class="sol-card-badge">Open</div>
+              <h3>Ambulance</h3>
+              <p>Red levens als ambulancemedewerker in Eindhoven. Eerste hulp, spoedeisende zorg en medische bijstand op het hoogste niveau.</p>
+              <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer" class="sol-card-btn sol-card-btn-discord">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.73 4.87A18.7 18.7 0 0 0 15.1 3.5a13 13 0 0 0-.64 1.3 17.5 17.5 0 0 0-4.92 0c-.19-.45-.41-.88-.64-1.3A18.6 18.6 0 0 0 4.27 4.87C1.6 8.9.88 12.83 1.23 16.7a18.6 18.6 0 0 0 5.53 2.8c.45-.62.85-1.27 1.2-1.95a12 12 0 0 1-1.9-.93c.16-.12.32-.24.47-.36a13.7 13.7 0 0 0 11 0c.16.12.32.24.47.36-.62.37-1.26.69-1.9.93.35.68.75 1.33 1.2 1.95a18.6 18.6 0 0 0 5.53-2.8c.48-4.48-.7-8.38-3.13-11.83ZM8.7 14.6c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Zm6.6 0c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Z"/></svg>
+                Overheid Discord
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sol-process">
+        <div class="sol-process-glow"></div>
+        <div class="sol-process-divider">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="sol-process-header">
+          <p class="eyebrow">PROCEDURE</p>
+          <h2>Hoe werkt solliciteren?</h2>
+          <p class="sol-process-subtitle">Het sollicitatieproces verschilt per afdeling. Hieronder vind je per route een duidelijk stappenplan.</p>
+        </div>
+
+        <div class="sol-routes">
+          <!-- Route: Staff -->
+          <div class="sol-route sol-route--site">
+            <div class="sol-route-head">
+              <span class="sol-route-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </span>
+              <div>
+                <span class="sol-route-tag">Via de website</span>
+                <h3>Staff Sollicitatie</h3>
+              </div>
+            </div>
+
+            <div class="sol-route-timeline">
+              <div class="sol-step">
+                <div class="sol-step-marker"><span>1</span></div>
+                <div class="sol-step-content">
+                  <h4>Formulier invullen</h4>
+                  <p>Klik op <strong>"Solliciteer nu"</strong> bij de Staff‑kaart en vul het online formulier volledig in. Voeg je ervaring, motivatie en beschikbaarheid toe.</p>
+                </div>
+              </div>
+              <div class="sol-step">
+                <div class="sol-step-marker"><span>2</span></div>
+                <div class="sol-step-content">
+                  <h4>Beoordeling door management</h4>
+                  <p>Het managementteam bekijkt je aanvraag binnen <strong>24 – 48 uur</strong>. Je hoeft zelf niets te doen — wij nemen contact met je op via Discord.</p>
+                </div>
+              </div>
+              <div class="sol-step">
+                <div class="sol-step-marker"><span>3</span></div>
+                <div class="sol-step-content">
+                  <h4>Kennismaking &amp; start</h4>
+                  <p>Bij goedkeuring ontvang je een <strong>Discord‑uitnodiging</strong> voor een kort kennismakingsgesprek. Daarna kun je direct aan de slag als stafflid.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Route: Overheid -->
+          <div class="sol-route sol-route--discord">
+            <div class="sol-route-head">
+              <span class="sol-route-icon sol-route-icon--discord">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.73 4.87A18.7 18.7 0 0 0 15.1 3.5a13 13 0 0 0-.64 1.3 17.5 17.5 0 0 0-4.92 0c-.19-.45-.41-.88-.64-1.3A18.6 18.6 0 0 0 4.27 4.87C1.6 8.9.88 12.83 1.23 16.7a18.6 18.6 0 0 0 5.53 2.8c.45-.62.85-1.27 1.2-1.95a12 12 0 0 1-1.9-.93c.16-.12.32-.24.47-.36a13.7 13.7 0 0 0 11 0c.16.12.32.24.47.36-.62.37-1.26.69-1.9.93.35.68.75 1.33 1.2 1.95a18.6 18.6 0 0 0 5.53-2.8c.48-4.48-.7-8.38-3.13-11.83ZM8.7 14.6c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Zm6.6 0c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Z"/></svg>
+              </span>
+              <div>
+                <span class="sol-route-tag sol-route-tag--discord">Via Overheid Discord</span>
+                <h3>Politie · Defensie · Ambulance</h3>
+              </div>
+            </div>
+
+            <div class="sol-route-timeline">
+              <div class="sol-step">
+                <div class="sol-step-marker sol-step-marker--discord"><span>1</span></div>
+                <div class="sol-step-content">
+                  <h4>Overheid Discord joinen</h4>
+                  <p>Klik op <strong>"Overheid Discord"</strong> bij Politie, Defensie of Ambulance. Je wordt direct doorgestuurd naar de juiste Discord‑server.</p>
+                </div>
+              </div>
+              <div class="sol-step">
+                <div class="sol-step-marker sol-step-marker--discord"><span>2</span></div>
+                <div class="sol-step-content">
+                  <h4>Sollicitatie‑ticket openen</h4>
+                  <p>Ga naar het <strong>sollicitatie‑kanaal</strong> en open een ticket voor de afdeling van je keuze. Volg de instructies en beantwoord alle vragen.</p>
+                </div>
+              </div>
+              <div class="sol-step">
+                <div class="sol-step-marker sol-step-marker--discord"><span>3</span></div>
+                <div class="sol-step-content">
+                  <h4>Gesprek &amp; opleiding</h4>
+                  <p>Na beoordeling word je uitgenodigd voor een <strong>gesprek met de leidinggevende</strong>. Bij goedkeuring start je eerst met een opleiding.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sol-req-bar">
+          <div class="sol-req-bar-inner">
+            <div class="sol-req-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Minimaal <strong>16 jaar</strong></span>
+            </div>
+            <div class="sol-req-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+              <span>Werkende <strong>microfoon</strong></span>
+            </div>
+            <div class="sol-req-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <span><strong>Nederlands</strong> spreken</span>
+            </div>
+            <div class="sol-req-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <span>Bereikbaar via <strong>Discord</strong></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="/home">
+              <span class="logo-mark">
+                <img src="../assets/images/ehlogo.png" alt="Eindhoven Roleplay" />
+              </span>
+              <span class="logo-text">Eindhoven Roleplay</span>
+            </a>
+            <p class="footer-brand-desc">
+              De beste FiveM roleplay ervaring van Nederland. Kwaliteit, sfeer en realistische verhalen staan bij ons centraal.
+            </p>
+            <div class="footer-socials">
+              <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer" aria-label="Discord">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.73 4.87A18.7 18.7 0 0 0 15.1 3.5a13 13 0 0 0-.64 1.3 17.5 17.5 0 0 0-4.92 0c-.19-.45-.41-.88-.64-1.3A18.6 18.6 0 0 0 4.27 4.87C1.6 8.9.88 12.83 1.23 16.7a18.6 18.6 0 0 0 5.53 2.8c.45-.62.85-1.27 1.2-1.95a12 12 0 0 1-1.9-.93c.16-.12.32-.24.47-.36a13.7 13.7 0 0 0 11 0c.16.12.32.24.47.36-.62.37-1.26.69-1.9.93.35.68.75 1.33 1.2 1.95a18.6 18.6 0 0 0 5.53-2.8c.48-4.48-.7-8.38-3.13-11.83ZM8.7 14.6c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Zm6.6 0c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Navigatie</h4>
+            <ul>
+              <li><a href="/home">Home</a></li>
+              <li><a href="/apv">Regels</a></li>
+              <li><a href="https://eindhoven-roleplay.tebex.io/" target="_blank" rel="noreferrer">Doneren</a></li>
+              <li><a href="/solliciteren">Solliciteren</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Discord Server</a></li>
+              <li><a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Support Ticket</a></li>
+              <li><a href="/solliciteren">Solliciteren</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Informatie</h4>
+            <ul>
+              <li><a href="/apv">Serverregels</a></li>
+              <li><a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Veelgestelde Vragen</a></li>
+              <li><a href="https://eindhoven-roleplay.tebex.io/" target="_blank" rel="noreferrer">Store &amp; Donaties</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <span>&copy; 2026 Eindhoven Roleplay. Alle rechten voorbehouden.</span>
+          <div class="footer-bottom-links">
+            <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Contact</a>
+            <span class="footer-dot"></span>
+            <a href="/apv">Regels</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/js/script.js" defer></script>
+  </body>
+</html>
