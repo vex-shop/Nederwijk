@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eindhoven Roleplay | Regels & Wetgeving</title>
+    <meta
+      name="description"
+      content="De officiële regelgeving van Eindhoven Roleplay: APV, Wetboek, Rechtspraak en meer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://discord.gg" />
+    <link rel="dns-prefetch" href="https://eindhoven-roleplay.tebex.io" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="prefetch" href="/" />
+    <link rel="prefetch" href="/solliciteren" />
+    <style>
+      /* ── Performance ── */
+      .docs-sidebar {
+        will-change: transform;
+        contain: layout style paint;
+      }
+      .docs-content {
+        contain: layout style;
+      }
+      .docs-content section {
+        contain: layout style;
+      }
+
+      /* ── Base ── */
+      body.rules-page {
+        background: #0d1822;
+        min-height: 100vh;
+      }
+
+      .rules-layout {
+        padding-top: 140px;
+        min-height: 100vh;
+      }
+
+      .docs-container {
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        gap: 1.5rem;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 2.5rem 2rem 4rem;
+        min-height: calc(100vh - 140px);
+        contain: layout style;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      /* ═══════════════════════════════════════
+         SIDEBAR
+         ═══════════════════════════════════════ */
+      .docs-sidebar {
+        position: sticky;
+        top: 160px;
+        height: fit-content;
+        max-height: calc(100vh - 180px);
+        overflow-y: auto;
+        padding: 1.25rem;
+        background: rgba(13, 18, 26, 0.95);
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .sidebar-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 0.5rem 0.75rem 1rem;
+        margin-bottom: 0.25rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      }
+
+      .sidebar-header span {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+      .docs-sidebar nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding-top: 0.5rem;
+      }
+
+      .docs-sidebar nav ul li a {
+        display: flex;
+        align-items: center;
+        padding: 0.55rem 0.7rem;
+        border-radius: 10px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.84rem;
+        font-weight: 500;
+        line-height: 1.4;
+        transition: color 0.2s ease, background-color 0.2s ease;
+        text-decoration: none;
+      }
+
+      .docs-sidebar nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.05);
+        color: rgba(255, 255, 255, 0.85);
+      }
+
+      .docs-sidebar nav ul li a.active {
+        background: rgba(89, 220, 231, 0.08);
+        color: #59dce7;
+        font-weight: 600;
+      }
+
+      .docs-sidebar::-webkit-scrollbar {
+        width: 3px;
+      }
+      .docs-sidebar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .docs-sidebar::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+      }
+      .docs-sidebar::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      /* ═══════════════════════════════════════
+         MAIN CONTENT AREA
+         ═══════════════════════════════════════ */
+      .docs-content {
+        padding: 2.5rem 3rem;
+        background: linear-gradient(150deg, rgba(14, 21, 29, 0.95), rgba(11, 16, 23, 0.98));
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+        min-height: 800px;
+      }
+
+      /* ── Section Spacing ── */
+      .docs-content section + section {
+        margin-top: 4rem;
+        padding-top: 3rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+      }
+
+      /* ── Typography ── */
+      .docs-content h1 {
+        font-size: 2.25rem;
+        margin-bottom: 1.25rem;
+        color: #eaf7f9;
+        font-weight: 800;
+        line-height: 1.25;
+        letter-spacing: -0.025em;
+        background: linear-gradient(135deg, #ffffff 0%, #59dce7 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .docs-content h2 {
+        font-size: 1.5rem;
+        margin: 3rem 0 1.25rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid rgba(89, 220, 231, 0.18);
+        color: #59dce7;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      .docs-content h3 {
+        font-size: 1.25rem;
+        margin: 2.5rem 0 1rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        color: #eaf7f9;
+        font-weight: 700;
+      }
+
+      .docs-content h1 + h3,
+      .docs-content h2 + h3,
+      .docs-content .docs-intro + h3,
+      .docs-content section > h3:first-of-type {
+        border-top: none;
+        padding-top: 0;
+        margin-top: 2rem;
+      }
+
+      .docs-content h4 {
+        font-size: 1rem;
+        margin: 2.5rem 0 1rem;
+        padding: 0.85rem 1.15rem;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: 12px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: -0.005em;
+      }
+
+      .docs-content h1 + h4,
+      .docs-content h2 + h4,
+      .docs-content h3 + h4,
+      .docs-content .docs-intro + h4,
+      .docs-content section > h4:first-of-type {
+        margin-top: 1.5rem;
+      }
+
+      .docs-content p {
+        margin-bottom: 1rem;
+        line-height: 1.8;
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 0.95rem;
+      }
+
+      .docs-content ul,
+      .docs-content ol {
+        margin: 0.75rem 0 1rem 1.75rem;
+        color: rgba(255, 255, 255, 0.72);
+      }
+
+      .docs-content li {
+        margin-bottom: 0.5rem;
+        line-height: 1.75;
+        font-size: 0.93rem;
+      }
+
+      .docs-content li::marker {
+        color: rgba(89, 220, 231, 0.6);
+      }
+
+      .docs-content strong {
+        color: #59dce7;
+        font-weight: 600;
+      }
+
+      .docs-content code {
+        background: rgba(89, 220, 231, 0.1);
+        color: #7ae3ec;
+        padding: 0.15em 0.45em;
+        border-radius: 5px;
+        font-size: 0.88em;
+        font-family: 'SF Mono', 'Fira Code', monospace;
+      }
+
+      /* ── Tables ── */
+      .docs-content table {
+        width: 100%;
+        margin: 1.25rem 0 1.5rem;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.025);
+      }
+
+      .docs-content table th {
+        background: rgba(89, 220, 231, 0.08);
+        padding: 0.75rem 1.15rem;
+        text-align: left;
+        font-weight: 700;
+        color: rgba(89, 220, 231, 0.9);
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        border-bottom: 1px solid rgba(89, 220, 231, 0.15);
+      }
+
+      .docs-content table td {
+        padding: 0.7rem 1.15rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 0.9rem;
+      }
+
+      .docs-content table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .docs-content table tr:hover td {
+        background: rgba(89, 220, 231, 0.04);
+      }
+
+      /* ── Blockquotes ── */
+      .docs-content blockquote {
+        margin: 1rem 0 1.25rem;
+        padding: 1rem 1.25rem;
+        background: rgba(89, 220, 231, 0.04);
+        border: 1px solid rgba(89, 220, 231, 0.1);
+        border-radius: 12px;
+      }
+
+      .docs-content blockquote p {
+        color: rgba(255, 255, 255, 0.7);
+        font-style: italic;
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+
+      /* ── Sanctie Badge ── */
+      .sanctie-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.35rem 0.75rem;
+        background: rgba(239, 68, 68, 0.06);
+        border: 1px solid rgba(239, 68, 68, 0.15);
+        border-radius: 8px;
+        color: rgba(252, 165, 165, 0.85);
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin: 0.35rem 0 0.75rem;
+      }
+
+      /* ── Intro Box ── */
+      .docs-intro {
+        padding: 2rem 2.25rem;
+        background: rgba(89, 220, 231, 0.04);
+        border: 1px solid rgba(89, 220, 231, 0.15);
+        border-radius: 16px;
+        margin-bottom: 2.5rem;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      }
+
+      .docs-intro::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: linear-gradient(to right, #59dce7, rgba(43, 184, 195, 0.4), transparent);
+      }
+
+      .docs-intro p {
+        color: rgba(255, 255, 255, 0.82);
+        font-size: 0.98rem;
+        line-height: 1.8;
+      }
+
+      .docs-intro ul {
+        margin-top: 0.75rem;
+      }
+
+      .docs-intro li {
+        font-size: 0.93rem;
+        color: rgba(255, 255, 255, 0.72);
+      }
+
+      /* ═══════════════════════════════════════
+         RESPONSIVE
+         ═══════════════════════════════════════ */
+      @media (max-width: 1600px) {
+        .docs-container {
+          grid-template-columns: 250px 1fr;
+        }
+      }
+
+      @media (max-width: 1400px) {
+        .docs-container {
+          grid-template-columns: 240px 1fr;
+        }
+        .docs-content h1 {
+          font-size: 2rem;
+        }
+      }
+
+      @media (max-width: 1200px) {
+        .docs-container {
+          grid-template-columns: 1fr;
+          padding: 2rem 1.5rem;
+        }
+        .docs-sidebar {
+          position: relative;
+          top: 0;
+          max-height: none;
+          min-width: 0;
+        }
+        .docs-content {
+          min-width: 0;
+        }
+        .rules-layout {
+          padding-top: 120px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .rules-layout {
+          padding-top: 100px;
+          overflow-x: hidden;
+        }
+        .docs-container {
+          padding: 1rem 16px;
+        }
+        .docs-sidebar {
+          width: 100%;
+          box-sizing: border-box;
+          overflow: hidden;
+        }
+        .docs-content {
+          padding: 1.5rem 1.25rem;
+          border-radius: 16px;
+          width: 100%;
+          box-sizing: border-box;
+          overflow: hidden;
+          min-width: 0;
+        }
+        .docs-content h1 {
+          font-size: 1.5rem;
+        }
+        .docs-content h2 {
+          font-size: 1.2rem;
+          margin: 2rem 0 1rem;
+        }
+        .docs-content h3 {
+          font-size: 1.1rem;
+          margin: 1.75rem 0 0.75rem;
+        }
+        .docs-content h4 {
+          padding: 0.75rem 1rem;
+          font-size: 0.95rem;
+          margin: 1.75rem 0 0.75rem;
+        }
+        .docs-intro {
+          padding: 1.25rem 1rem;
+        }
+        .docs-intro p,
+        .docs-content p {
+          font-size: 0.9rem;
+          word-break: break-word;
+        }
+        .docs-content table {
+          width: 100%;
+          table-layout: fixed;
+        }
+        .docs-content table th,
+        .docs-content table td {
+          padding: 0.6rem 0.85rem;
+          font-size: 0.82rem;
+          white-space: normal;
+          word-break: break-word;
+        }
+        .docs-sidebar {
+          border-radius: 14px;
+          padding: 1rem;
+        }
+        .docs-sidebar nav ul li a {
+          font-size: 0.8rem;
+          padding: 0.5rem 0.6rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="rules-page">
+    <!-- Navbar and promo-bar will be injected by script.js -->
+
+    <!-- Main Content -->
+    <main class="rules-layout">
+      <div class="docs-container">
+        <!-- Sidebar Navigation -->
+        <aside class="docs-sidebar">
+          <div class="sidebar-header">
+            <span>Navigatie</span>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#apv" class="active">Algemene Plaatselijke Verordening</a></li>
+              <li><a href="#wetboek">Wetboek</a></li>
+              <li><a href="#risicogebieden">Risicogebieden</a></li>
+              <li><a href="#douanegebieden">Douanegebieden</a></li>
+              <li><a href="#notam">NOTAM</a></li>
+              <li><a href="#belastingen">Belastingen</a></li>
+              <li><a href="#rechtspraak">Regelement voor de rechtspraak</a></li>
+              <li><a href="#streamen">Streamen op Eindhoven</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <div class="docs-content">
+          <!-- APV Section -->
+          <section id="apv">
+            <h1>Wet- en Regelgeving Eindhoven</h1>
+            
+            <div class="docs-intro">
+              <p>
+                Welkom op de pagina voor de Wet- en Regelgeving van Eindhoven! In het menu aan de linkerkant vind je alle verschillende documenten die betrekking hebben op Eindhoven.
+              </p>
+              <p>
+                <strong>Zorg ervoor dat je, voordat je deelneemt aan Eindhoven, kennis hebt genomen van deze wetten.</strong>
+              </p>
+              <ul>
+                <li>De <strong>Algemene Plaatselijke Verordening (APV)</strong> bevat alle regels die niet te maken hebben met de Roleplay — dit zijn zogezegd de "serverregels".</li>
+                <li>Het <strong>Wetboek Eindhoven</strong> bevat alle wetten voor de burgers.</li>
+                <li>Alle overige documenten zijn specifiek bedoeld voor bepaalde zaken, zoals het belastingdocument waar je kunt opzoeken hoeveel de autobelasting is.</li>
+              </ul>
+            </div>
+
+            <h2>Algemene Plaatselijke Verordening (APV)</h2>
+
+            <h3>Algemene Bepalingen</h3>
+            
+            <h4>A-1 - Reikwijdte</h4>
+            <p>1. Deze Algemene Plaatselijke Verordening, hierna te noemen <strong>APV</strong>, is bedoeld als aanvulling op het Nederlands Recht en heeft betrekking op het eiland, de gemeente en de stad Eindhoven.</p>
+            <p>2. De APV biedt een indicatief kader voor eventuele bestraffing in-game ("in RP"), maar is verder bedoeld voor het afhandelen van straffen buiten de RP om.</p>
+
+            <h4>A-2 - Geldigheid</h4>
+            <p>1. Bij wijzigingen in de wetgeving na het tijdstip waarop het feit is begaan, worden de voor de verdachte meest gunstige bepalingen toegepast.</p>
+            <p>2. Het is voor een staff-lid niet toegestaan om mee te beslissen over een zaak die betrekking heeft op zichzelf, vrienden en/of familie. Dit om te waarborgen dat een zaak op een eerlijke en rechtvaardige manier wordt behandeld.</p>
+            <p>3. Indien er tegen staff gelogen wordt en dit met hard bewijs (bijvoorbeeld logbestanden) wordt aangetoond, kan ervoor worden gekozen de straf te verzwaren.</p>
+            <p>4. Wanneer je meer dan 2 weken wacht om een ticket aan te maken, kom je niet meer in aanmerking om een refund te ontvangen.</p>
+
+            <h4>A-3 - Strafbepaling</h4>
+            <p>1. De straffen zijn onderverdeeld in de volgende categorieën:</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Categorie</th>
+                  <th>Straf</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Categorie 1</td>
+                  <td>Waarschuwing + 100 uur taakstraf</td>
+                </tr>
+                <tr>
+                  <td>Categorie 2</td>
+                  <td>1 dag ban + 50 uur taakstraf</td>
+                </tr>
+                <tr>
+                  <td>Categorie 3</td>
+                  <td>2 dagen ban + 50 uur taakstraf</td>
+                </tr>
+                <tr>
+                  <td>Categorie 4</td>
+                  <td>3 dagen ban + 50 uur taakstraf</td>
+                </tr>
+                <tr>
+                  <td>Categorie 5</td>
+                  <td>1 week ban + 50 uur taakstraf</td>
+                </tr>
+                <tr>
+                  <td>Categorie 6</td>
+                  <td>1 maand ban + 50 uur taakstraf</td>
+                </tr>
+                <tr>
+                  <td>Categorie 7</td>
+                  <td>Permanente ban</td>
+                </tr>
+                <tr>
+                  <td>Categorie 8</td>
+                  <td>Account wipe</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>2. De straffen van categorie 5, 6 en 7 kunnen preventief worden opgelegd. Er zal dan nader onderzoek worden gedaan om de strafmaat te bepalen.</p>
+            <p>3. Een staff-lid kan besluiten de strafmaat te verhogen of te verlagen op basis van context, situatie of eerdere overtredingen van de persoon in kwestie. Bij onenigheid over een oordeel kan een ticket worden aangemaakt.</p>
+            <p>4. Een mondelinge waarschuwing dient in een notitie bij de persoon te worden geregistreerd; anders is deze niet geldig.</p>
+            <p>5. Het omzeilen van een straf zal resulteren in een straf volgens categorie 7.</p>
+            <p>6. Bans worden uitgedeeld op basis van de GTA-licentie en het IP-adres. Dit geldt voor alle gebruikers van deze kenmerken.</p>
+            <blockquote>
+              <p><strong>Opmerking:</strong> Waarschuwingen zijn 3 maanden geldig. Daarna vervallen ze automatisch.</p>
+            </blockquote>
+
+            <h3>Overtredingen - Verstoring openbare orde (RP)</h3>
+            
+            <h4>Artikel 1 - Fail-RP</h4>
+            <p>1. Het is verboden om roleplay van zeer slechte kwaliteit uit te spelen of gedrag te vertonen dat de roleplay verstoort.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+            <p>2. Het zogenaamde "counteren" tijdens een politieachtervolging, oftewel het bemoeien met een achtervolging van een ander, is niet toegestaan.</p>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Indien de politie tussenbeide komt in een reeds bestaand conflict, is deze regel niet van toepassing.</p>
+            </blockquote>
+            <span class="sanctie-badge">Sanctie: Categorie 2</span>
+
+            <h4>Artikel 2 - Powergamen</h4>
+            <p>1. Het is niet toegestaan om opzettelijk de roleplay zodanig te manipuleren dat er een oneerlijke of onrealistische wending aan het verhaal wordt gegeven, of om de roleplay van een andere partij zelf in te vullen door middel van onrealistische dwang.</p>
+            <p>2. Voorbeelden van overtredingen:</p>
+            <ul>
+              <li>Je voertuig in een garage zetten of pakken tijdens een achtervolging om verlies te voorkomen;</li>
+              <li>Een agent ontvoeren om een signalering te verwijderen of om toegang te krijgen tot politiedossiers (MEOS);</li>
+              <li>Medewerkers van overheidsdiensten dwingen een bewusteloos persoon te fouilleren, wapens af te nemen of af te geven aan jou of anderen.</li>
+            </ul>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 3 - Out Of Character</h4>
+            <p>1. Het is te allen tijde verboden om je karakter te "breken". Dit houdt in dat je termen gebruikt die als Out Of Character (OOC) worden beschouwd. Ook is het niet toegestaan om <code>/looc</code> verkeerd te gebruiken of te gebruiken voor toxic of zoutige opmerkingen.</p>
+            <p>2. Voorbeelden van verkeerd gebruik van <code>/looc</code>:</p>
+            <ul>
+              <li>/looc wat doen jullie?</li>
+              <li>/looc waarom rdm je?</li>
+              <li>/looc slechte roleplay</li>
+              <li>/looc wat je doet mag niet, ik maak een ticket/report</li>
+            </ul>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 4 - Safezone</h4>
+            <p>1. Het is verboden om de Safezone te gebruiken om te ontkomen aan illegale activiteiten en/of roleplay.</p>
+            <p>2. Voorbeelden van overtredingen binnen een Safezone: Schade toebrengen, ontvoeren, uitbreken, overvallen, aanrijden of vermoorden van een persoon.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 5 - New Life Rule</h4>
+            <p>1. Indien een karakter overlijdt, wordt verwacht dat hij/zij/het de laatste roleplay vergeet. Het karakter mag niet terugkeren naar het gebied waar hij/zij/het is overleden. Dit gebied wordt aangeduid met een rode cirkel op de kaart en is verboden terrein gedurende <strong>30 minuten</strong> na het overlijden.</p>
+            <p>2. Tevens mag het karakter zich niet opnieuw bemoeien met hetzelfde scenario totdat dit volledig is afgerond.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 4</span>
+
+            <h4>Artikel 6 - RDM (Random Deathmatch)</h4>
+            <p>Het onnodig mishandelen, vermoorden, uitlokken en/of lastigvallen van anderen zonder intentie tot roleplay is verboden. Dit geldt ook voor dieren.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 7 - No Value of Life (NVOL)</h4>
+            <p>1. Het is niet toegestaan geen waarde te hechten aan het leven van het karakter dat je speelt. Dit omvat onder andere:</p>
+            <ul>
+              <li>Wegrijden met een voertuig met een snelheid van minder dan 30 km/u in een levensbedreigende situatie.</li>
+              <li>Wegrennen van een bomvest welke binnen armlengte van jou staat en jijzelf geen wapen in de handen hebt.</li>
+            </ul>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Het is GEEN NVOL om te vluchten wanneer iemand vanuit een voertuig of motor zijn vuurwapen op je richt.</p>
+            </blockquote>
+            <p>2. Het overvallen met een mêlee-wapen is toegestaan, zolang het binnen armlengte is en het wapen op het slachtoffer gericht is. Buiten deze omstandigheden is medewerking niet verplicht. Mocht het slachtoffer een vuurwapen hebben, dan is medewerking niet verplicht.</p>
+            <p>3. Wanneer je in een armored voertuig zit en dit voertuig ramen mist, kapotte ramen heeft of volledig kapot is, is medewerking verplicht.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 2</span>
+
+            <h4>Artikel 8 - ERP (Erotische Roleplay)</h4>
+            <p>1. Het uitvoeren van erotische roleplay (ERP) is ten strengste verboden.</p>
+            <p>2. Voorbeelden van ERP:</p>
+            <ul>
+              <li>Berichten met een erotische tint in /me, /do en /looc; denk daarbij aan het praten over seks en/of geslachtsdelen.</li>
+              <li>Foutief gebruik van emotes met seksuele ondertoon.</li>
+            </ul>
+            <span class="sanctie-badge">Sanctie: Categorie 7</span>
+
+            <h4>Artikel 9 - Zelfmoord-RP</h4>
+            <p>1. Het uitvoeren van een zelfmoordscenario is niet toegestaan.</p>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Dit artikel kan alleen worden overschreden met goedkeuring van de staff. Het Bomvest is uitzondering op dit artikel. Hierbij moet wel een roleplay aan vast zitten.</p>
+            </blockquote>
+            <span class="sanctie-badge">Sanctie: Categorie 8 en/of 200 maanden celstraf</span>
+
+            <h4>Artikel 10 - Meta-gaming</h4>
+            <p>1. Het is niet toegestaan om informatie die buiten het karakter is verkregen te gebruiken binnen het spel. Dit omvat alle informatie die jouw karakter niet binnen FiveM heeft verkregen.</p>
+            <p>2. Bij ontsnappingen uit het cellencomplex (Art. 25 APV) moet een medeplichtige videobewijs kunnen overleggen waaruit blijkt dat zij de gevangene hebben waargenomen binnen de stad en aannemelijk konden maken dat deze vastzat.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+            <p>3. Het is niet toegestaan externe discords te gebruiken voor roleplay-gerelateerde zaken zonder toestemming van de staff.</p>
+            <ul>
+              <li>Eigenaren van deze Discord-servers worden bestraft volgens Categorie 7.</li>
+              <li>Tijdens voicechats met andere spelers van Eindhoven geldt:
+                <ul>
+                  <li>Streamen is niet toegestaan.</li>
+                  <li>Je moet gedeafened en gemute zijn.</li>
+                </ul>
+              </li>
+              <li>Het streamen van de main server in een Discord-server is verboden, tenzij expliciet goedgekeurd door de staff.</li>
+              <li>Bij ontsnappingen (Art. 25 APV) geldt hetzelfde videobewijsvereiste als bij lid 1.</li>
+              <li>In calls zitten met je vrienden die geen Eindhoven spelen is ook verboden.</li>
+            </ul>
+            <p>4. Het is toegestaan om in Discord via een "ic-bewijs" kanaal, bewijs te delen. Dit bewijs moet opgenomen zijn met een bodycam (360 graden), dashcam (voor/achter) en/of telefoon in de hand (360 graden).</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 11 - Exploits</h4>
+            <p>Het moedwillig misbruiken van bugs en/of exploits om voordeel te behalen of in-game functionaliteiten te omzeilen, is verboden. Dit geldt ongeacht de gebruikte middelen.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 7</span>
+
+            <h4>Artikel 12 - Cheats</h4>
+            <p>1. Het gebruik van software of hulpmiddelen van derden (cheats) om voordeel te behalen in het spel is verboden.</p>
+            <p>2. Dit artikel geldt ook voor de Discord-client. Het gebruik van bijvoorbeeld BetterDiscord of soortgelijke clients is niet toegestaan.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 7</span>
+
+            <h4>Artikel 13 - (Overheids)kleding</h4>
+            <p>1. Bij het aanmaken van je personage moet de kleding worden aangepast. Het is niet toegestaan om met standaard startkleding de server te betreden. Het personage dient een realistische uitstraling te hebben, waarbij de outfit klopt (inclusief armen) en er geen lichaamsdelen ontbreken.</p>
+            <p>2. De kleding die door de werkgever is verstrekt voor het uitvoeren van het beroep moet gedragen worden.</p>
+            <p>3. Het dragen van kleding van overheidsbanen door niet-ambtenaren is verboden, tenzij hier een goedgekeurde roleplay door een stafflid aan verbonden is.</p>
+            <p>4. Officiële Eindhoven-kleding, bedoeld voor specifieke groeperingen, mag niet door anderen worden gebruikt of als startkleding worden gekozen, tenzij er een sterke en goedgekeurde roleplay aan verbonden is.</p>
+            <p>5. Kleding die aangekocht is via de Eindhoven website mag wel gedragen worden door iedereen. (Op eigen risico)</p>
+            <span class="sanctie-badge">Sanctie: Eerst een mondelinge waarschuwing. Bij het niet aanpassen volgt Categorie 1</span>
+
+            <h4>Artikel 14 - Combatlogging</h4>
+            <p>1. Het is verboden de game moedwillig te verlaten tijdens een roleplay zonder geldige reden. Er wordt verwacht dat je binnen <strong>5 minuten</strong> terugkeert.</p>
+            <p>2. Indien je de game wilt verlaten tijdens een roleplay, moet je dit duidelijk maken aan de betrokkenen. Dit kan via <code>/looc</code> of, indien dit niet werkt, via spraak.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 5</span>
+
+            <h4>Artikel 15 - Talen in de stad</h4>
+            <p>1. De voertalen op Eindhoven zijn Nederlands en Engels.</p>
+            <p>2. Andere talen mogen niet provocerend of beledigend worden gebruikt tijdens roleplay.</p>
+            <p>3. Tijdens gesprekken met staff of overheidsfunctionarissen moet Nederlands worden gesproken. Als een persoon geen Nederlands spreekt, moet er iemand aanwezig zijn die namens hem in het Nederlands communiceert.</p>
+            <span class="sanctie-badge">Sanctie: Personen die geen Nederlands of Engels spreken, zijn niet welkom. Provocerend/beledigend taalgebruik: Categorie 2</span>
+
+            <h4>Artikel 16 - Gebruik van "/report"</h4>
+            <p>1. Het gebruik van <code>/report</code> is bedoeld om overtredingen te melden zonder de roleplay te beïnvloeden of de overtreder op de hoogte te stellen.</p>
+            <p>2. Het is verboden om anderen in-game te informeren over een ingediende report. Dit wordt beschouwd als FailRP (OOC gaan in RP).</p>
+            <p>3. Het spammen van reports, het maken van onnodige reports, en discussiëren in reports is verboden.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 17 - Alt Characters</h4>
+            <p>1. Het is verboden alt-characters aan te maken met de intentie het startbedrag over te zetten naar een ander account. Ook mogen er niet meer dan 3 alt-accounts worden aangemaakt.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 7</span>
+            <p>2. Het aanmaken van een alt-character met de intentie criminele activiteiten te ondernemen is verboden als een van je andere personages een overheidsfunctie bekleedt.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 7</span>
+            <p>3. Hoewel alt-characters toegestaan zijn, is het verboden om alt-accounts te maken of te multiboxen met alt-characters.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 7/8 (van toepassing op alle alt-accounts)</span>
+
+            <h4>Artikel 18 - Voertuighandelaar / Voertuigmeetings</h4>
+            <p>1. Een voertuigdealer mag alleen bestaan met goedkeuring van KVK.</p>
+            <p>2. Regels voor voertuighandelaren:</p>
+            <ul>
+              <li>Maximaal 10 voertuigen in de "showroom";</li>
+              <li>Alleen op een door KVK goedgekeurde locatie;</li>
+              <li>Officiële vergunningen vereist, ondertekend door een lid van KVK.</li>
+            </ul>
+            <p>3. Bij voertuigmeetings mogen maximaal 20 voertuigen aanwezig zijn.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1. De KvK wordt ook geïnformeerd</span>
+
+            <h4>Artikel 19 - Gebruik van voertuigen</h4>
+            <p>1. Burgers mogen geen overheidsvoertuigen besturen, tenzij hier een goede reden voor is of toestemming is gegeven door een stafflid.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+            <p>2. Baanvoertuigen mogen niet worden gebruikt voor illegale activiteiten zonder goedkeuring van een stafflid.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+            <p>3. Het betreden van gebouwen met voertuigen is verboden.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+            <p>4. Het gebruik van voertuigen als wapen (VDM) is verboden. Het opzettelijk beuken van stilstaande voertuigen met de intentie om mensen om te laten vallen is ook niet toegestaan.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+            <p>5. Pit-manoeuvres: Deze moeten realistisch zijn en mogen niet worden uitgevoerd bij snelheden boven de 125 km/u.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+            <p>6. Het gebruiken van een eigen voertuig tijdens jobs zoals ramenwassen, vrachtwagenchauffeur, post, enz. is niet toegestaan.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 2</span>
+
+            <h4>Artikel 20 - Belediging</h4>
+            <p>1. Het gebruik van beledigingen met betrekking tot relevante/hedendaagse ziektes, racistische of ongepaste opmerkingen is verboden op alle door Eindhoven erkende platformen.</p>
+            <span class="sanctie-badge">Sanctie: Eerste overtreding: 2 weken ban. Tweede: 3 maanden ban. Derde: Permanente ban</span>
+            <p>2. Toxic, uitlokkend, haatzaaiend of opruiend gedrag is niet toegestaan.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 7</span>
+
+            <h4>Artikel 21 - Overvallen & Oplichten</h4>
+            <p>1. Het overvallen of oplichten van personen is alleen toegestaan wanneer zij bezig zijn met criminele activiteiten.</p>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Bij gebruik van alle soorten wapens mag er altijd worden overvallen.</p>
+            </blockquote>
+            <p>2. De volgende situaties zijn verboden voor overvallen/oplichten:</p>
+            <ul>
+              <li>Bankgeld of loodsen;</li>
+              <li>Acties in safezones;</li>
+              <li>Overheidsvoorwerpen;</li>
+              <li>Het dwingen van iemand om een huis leeg te roven;</li>
+              <li>Nieuwe spelers;</li>
+              <li>Voertuigen (alleen legaal te koop met legaal geld).</li>
+            </ul>
+            <p>3. Het is de verantwoordelijkheid van de koper om te controleren of aanpassingen (zoals tunes) op een voertuig aanwezig zijn bij overdracht.</p>
+            <p>4. Counteren van een overval/gijzeling is verboden zodra politie/KMAR ter plaatse is.</p>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Als de crimineel de politie/KMAR is kwijtgeraakt en een nieuw scenario start, mag er wel worden gecounterd.</p>
+            </blockquote>
+            <p>5. Wapens, drugs, en gijzelingen in appartementen zijn verboden.</p>
+            <p>6. Na een overval/oplichting mag je het slachtoffer niet vermoorden, zelfs niet om de gebeurtenis te laten vergeten.</p>
+            <p>7. Wanneer jij hebt waargenomen dat personen bezig zijn met criminele activiteiten heb jij de volgende tijden te respecteren om ze nog te overvallen en/of oplichten:</p>
+            <ul>
+              <li>Hetzelfde voertuig met de juiste kleur: <strong>15 minuten</strong></li>
+              <li>Zelfde kenteken: <strong>1 uur</strong></li>
+              <li>Persoonsherkenning: <strong>4 uren</strong></li>
+            </ul>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Kan gegeven worden door het Crimineel Aanspreekpunt.</p>
+            </blockquote>
+            <span class="sanctie-badge">Sanctie: Minimaal Categorie 1</span>
+
+            <h4>Artikel 22 - Gedrag van Ambtenaren</h4>
+            <p>Onder ambtenaar wordt verstaan spelers die één van de volgende banen uitvoeren, zoals weergegeven in het F10-menu:</p>
+            <ul>
+              <li>Politie</li>
+              <li>Koninklijke Marechaussee</li>
+              <li>Justitie</li>
+              <li>Ambulance</li>
+              <li>Eindhoven Wegenwacht</li>
+              <li>Handhaving</li>
+            </ul>
+            <p>1. Voor een ambtenaar is het niet toegestaan zich bezig te houden met illegale bezigheden.</p>
+            <p>2. Het is niet toegestaan om door de politie in beslag genomen objecten door te handelen naar spelers. Dit geldt ook voor andere overheidsobjecten en informatie verkregen tijdens de carriere bij een overheidsdienst, ook na ontslag.</p>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Politie- of KMAR-medewerkers met een speciale vergunning mogen hun wapens buiten dienst behouden.</p>
+            </blockquote>
+            <span class="sanctie-badge">Sanctie: Categorie 6</span>
+
+            <h4>Artikel 23 - Gedrag tegen overheidsmedewerkers</h4>
+            <p>1. Meldingen naar een overheidsinstantie moeten realistisch en uitgebreid zijn; valse meldingen zijn verboden.</p>
+            <p>2. Roleplay met Eindhoven Wegenwacht en Ambulance moet realistisch en uitgebreid zijn. Medewerkers zijn altijd leidend in de roleplay.</p>
+            <p>3. Het maken van een melding om een overheidsmedewerker te vermoorden, ontvoeren of overvallen is niet toegestaan.</p>
+            <p>4. Er moeten altijd minstens vijf overheidsmedewerkers beschikbaar blijven na een ontvoering (uitgezonderd zijn de Justitie medewerkers).</p>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Ambulanciers mogen vanaf vier aanwezige collega's ontvoerd worden door criminele organisaties, mits de roleplay goed wordt uitgevoerd en het enkel voor de eigen groep is.</p>
+            </blockquote>
+            <p>5. Het is toegestaan een agent te ontvoeren om een voertuig uit de opslag te halen, mits het openstaande bedrag wordt voldaan. Dit mag niet tussen 00:00 en 10:00 uur.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 5, bij herhaling Categorie 6</span>
+
+            <h4>Artikel 24 - Roleplay & Ledenaantal Criminele Organisaties</h4>
+            <p>1. Criminele organisaties mogen maximaal 25 leden hebben, exclusief hangarounds (maximaal 5).</p>
+            <p>2. Samenwerking tussen criminele organisaties is toegestaan met maximaal twee gangs, tot een totaal van 10 leden van beide gangs.</p>
+            <p>3. Politie-invallen mogen worden gecounterd door maximaal twee groepen met in totaal 25 personen.</p>
+            <p>4. Samenwerkingen tussen officiële organisaties moeten worden gemeld via het daarvoor bestemde kanaal in de Discord.</p>
+            <p>5. Bij negatieve uitstraling van de organisatie (denk daarbij aan warns / combatgedrag etc.) kunnen sancties volgen.</p>
+            <span class="sanctie-badge">Sanctie: Sanctie door CA, mogelijk opschorting van de organisatie</span>
+
+            <h4>Artikel 25 - Ontsnappen uit het cellencomplex</h4>
+            <p>1. Ontsnappen is toegestaan mits gekoppeld aan een geldig roleplay-scenario, beoordeeld door een stafflid.</p>
+            <p>2. Ontsnappen is niet toegestaan tijdens afgesproken pauzes in roleplay.</p>
+            <p>3. Ontsnappen is verboden tussen 01:30 en 10:00 uur.</p>
+            <p>4. Er moeten samen minstens 10 politie- en KMAR-medewerkers aanwezig zijn.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 26 - Witwassen, Winkel- en bankovervallen & overige criminaliteit</h4>
+            <p>1. Witwassers overvallen is toegestaan wanneer minimaal één van onderstaande punten van toepassing is:</p>
+            <ul>
+              <li>Hij/zij/het draagt gezichtsbedekking.</li>
+              <li>Het kenteken van een voertuig komt overeen met het kenteken dat is verstuurd in het deepweb-kanaal (niet ouder dan 1 uur).</li>
+              <li>Een persoon doet verdachte handelingen bij een afleverpunt die niet passen bij de baan die de persoon op dat moment uitvoert.</li>
+              <li>Een persoon draagt niet de juiste kleding die bij de job past.</li>
+            </ul>
+            <p>2. Witwassen mag enkel in de voertuigen die je krijgt van het depot of een persoonlijk voertuig dat van het soort gelijkend model is.</p>
+            <p>3. De overvaller dient op het moment van overvallen beelden te kunnen overhandigen aan staffleden. Mocht dit niet mogelijk zijn, zal het direct worden teruggedraaid.</p>
+            <p>4. Het campen of opwachten op witwaslocaties en het depot is verboden.</p>
+            <p>5. Een gijzelaar mag geen kennis of vriend van je zijn, maar moet een onbekend persoon zijn.</p>
+            <p>6. Probeer op alle mogelijke manieren een vuurgevecht te vermijden en onderhandel eerst met de politie.</p>
+            <p>7. Een liquidatie mag niet uitgevoerd worden zonder dat het slachtoffer op de hoogte is van de reden hierachter. Er dient dus aan het slachtoffer duidelijk gemaakt te worden, terwijl hij/zij/het nog leeft, waarom diegene geliquideerd wordt.</p>
+            <p>8. Het campen op een niet-actieve drugslocatie is niet toegestaan, zowel op land als op het eiland.</p>
+            <p>9. Je hebt pas recht op een wapen als je daadwerkelijk een achtervolging/scenario bent aangegaan met de persoon. Dit moet je wel duidelijk kenbaar maken.</p>
+            <p>10. Indien je op borgtocht bent gestuurd zijn de volgende regels van kracht:</p>
+            <ul>
+              <li>Een persoon die de borgtocht is aangegaan mag niet meer worden uitgebroken.</li>
+              <li>Indien de persoon dood is gegaan in een scenario waarbij de politie betrokken is, geldt de New Life Rule niet meer. De huiszoeking gaat dan alsnog plaatsvinden.</li>
+              <li>Je kunt geen spullen pakken/verwijderen uit auto's en appartementen. Dit geldt ook voor kleding verwijderen.</li>
+            </ul>
+            <p>11. 30 minuten voor een herstart mag je geen overvallen doen van locaties (winkels, banken, casinoheist).</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 27 - Jobhoppen</h4>
+            <p>1. (Ex-)leden van een criminele organisatie dienen minimaal 72 uur te wachten nadat ze ontslag hebben genomen/ontslagen en/of samenwerken met een andere criminele organisatie voordat zij aangenomen mogen worden bij een overheidsbaan of een andere criminele organisatie.</p>
+            <p>2. (Ex-)medewerkers van een overheidsbaan dienen minimaal 72 uur te wachten nadat ze ontslag hebben genomen/ontslagen en/of samenwerken met een andere criminele organisatie voordat zij aangenomen mogen worden bij een andere overheidsbaan of een criminele organisatie.</p>
+            <p>3. Het is voor de leidinggevenden van overheidsbanen en criminele organisaties verplicht om een document bij te houden met informatie omtrent de in- en uitdiensttreding van hun medewerkers.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1 (bij de overheid volgt ook ontslag van de nieuwe baan)</span>
+
+            <h4>Artikel 28 - Stemherkenning</h4>
+            <p>1. Het is toegestaan om een speler te herkennen aan zijn/haar stem, tenzij je hem/haar totaal niet kent. Indien hierom gevraagd wordt, dien je dit aan te kunnen tonen.</p>
+            <p>2. Indien de speler duidelijk moeite doet om zijn stem te vervormen, dan is het niet toegestaan om een speler aan zijn/haar stem te herkennen.</p>
+            <p>3. Het is toegestaan om gebruik te maken van externe software om je stem te vervormen gedurende het uitvoeren van criminele activiteiten, echter dient dit realistisch te blijven.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel 29 - Omgaan met F6</h4>
+            <p>1. Het direct plaatsen van een geboeide persoon in een voertuig via F6 zonder uitgevoerde roleplay-handelingen is verboden. Spelers dienen de volgende stappen te volgen:</p>
+            <ul>
+              <li>De deuren van het voertuig openen.</li>
+              <li>De geboeide persoon begeleiden naar de deuropening.</li>
+              <li>Verbaal (op normale of luide toon) of via een actiecommando (<code>/me</code>) aangeven dat de persoon in het voertuig wordt getrokken.</li>
+            </ul>
+            <p>2. Je dient iemand te overmeesteren voordat er gebruik gemaakt kan worden van het F6-menu.</p>
+            <p>3. Fouilleren mag alleen met een legitieme reden.</p>
+            <p>4. Het uit een voertuig trekken van een persoon dient gepaard te gaan met de volgende realistische roleplay-handelingen:</p>
+            <ul>
+              <li>Het inslaan van de ruiten met daarbij de juiste attributen zoals een wapen (indien van toepassing).</li>
+              <li>Het openen van de deur.</li>
+              <li>Het losmaken van de gordel (indien van toepassing).</li>
+              <li>Het naar buiten trekken van de persoon.</li>
+            </ul>
+            <p>Elke directe interactie via F6 zonder bovengenoemde handelingen wordt beschouwd als F6-Abuse.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 5</span>
+
+            <h4>Artikel 30 - Loodsen</h4>
+            <p>1. Het misleiden of bedriegen met betrekking tot loodsen is verboden.</p>
+            <p>2. De verhuur van sleutels voor loodsen is toegestaan.</p>
+            <p>3. Het verhandelen van aandelen in loodsen is toegestaan.</p>
+            <p>4. Alle overeenkomsten met betrekking tot loodsen moeten schriftelijk worden vastgelegd en gedocumenteerd in de stad Eindhoven met het commando <code>/docu</code>, en dienen te worden ondertekend door alle betrokken partijen.</p>
+            <p>5. In geval van onduidelijkheid over de bepalingen van lid 2 of 3, zal het oordeel van een staflid leidend zijn, en dit staflid zal beslissen over de verdeling van de loods. De partij die beweert benadeeld te zijn, dient bewijsmateriaal te overleggen.</p>
+            <p>6. Indien een loods en eigenaar beide minimaal 120 dagen inactief zijn, kan SA+ deze loods opnieuw beschikbaar maken voor het publiek.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 3. Bij bedragen boven €2.000.000: Categorie 5</span>
+
+          <!-- Narcopolis -->
+            <h2>Narcopolis</h2>
+            <p>Onderstaande regels zijn uitsluitend van toepassing op Narcopolis.</p>
+
+            <h4>Artikel N-1 - Schieten vanaf het vasteland en water</h4>
+            <p>1. Het is verboden om vanaf het vaste land op de patrouillerende schepen of heli's te schieten.</p>
+            <p>2. Het is voor de Koninklijke Marechaussee verboden om op het vasteland te schieten.</p>
+            <p>3. Er mag op binnenkomende vluchten en schepen geschoten worden, die niet afkomstig zijn van de Koninklijke Marechaussee.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel N-2 - Inladen van helikopters/vliegtuigen</h4>
+            <p>1. Wanneer jij drugs wilt inladen in een vliegtuig of helikopter moet het vliegtuig of de helikopter binnen een straal van 50 meter van een helipad of landingsbaan staan.</p>
+            <p>2. De Sea Sparrow en Dodo mogen wel volgeladen worden op open water.</p>
+            <p>3. De kleine eilandjes rondom Narcopolis zijn eveneens uitgezonderd van deze regel.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel N-3 - Samenwerking criminele organisaties</h4>
+            <p>1. Op Narcopolis is het voor een officiële groep niet toegestaan om samen te werken met een officiële of onofficiële groep of persoon.</p>
+            <blockquote>
+              <p><strong>Uitzondering:</strong> Het kopen en verkopen van drugs mag wel gedaan worden op het eiland tussen verschillende groepen en personen.</p>
+            </blockquote>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+            <h4>Artikel N-4 - Campen van een niet-actieve drugslocatie</h4>
+            <p>1. Het campen van een niet-actieve drugslocatie is niet toegestaan op het eiland.</p>
+            <p>2. Zodra je binnen 1000 meter van de pluk bent, kan dit onder campen vallen. Dit is ter beoordeling aan een stafflid.</p>
+            <p>3. Het is niet toegestaan om constant op en neer te rijden naar een niet-actieve drugslocatie om zo de camp-regel te omzeilen.</p>
+            <span class="sanctie-badge">Sanctie: Categorie 1</span>
+
+          <!-- Gangregels -->
+            <h2>Gangregels</h2>
+            <p>Onderstaande regels zijn voor criminele organisaties. Het overtreden van de onderstaande regels zal resulteren in sancties voor de organisatie in zijn geheel.</p>
+
+            <h4>Artikel G-1 - Voertuigen in beslag nemen</h4>
+            <p>1. Een voertuig mag alleen in beslag genomen worden met een geldige reden (bijv. jouw voertuig is in beslag genomen, ze hebben een van je leden doodgeschoten, je hebt een oorlog, je wilt er een overval mee doen, etc.).</p>
+            <p>2. Het is niet toegestaan om elkaars voertuig in beslag te nemen om deze vervolgens expres in beslag te laten nemen door de politie/KMAR.</p>
+            <p>3. Na het in beslag nemen van een voertuig dient er binnen 24 uur contact opgenomen te worden bij de desbetreffende persoon (om de RP gaande te houden en de persoon de kans te geven zijn voertuig op gestolen te zetten). Verder moet elke 24 uur de RP gaande gehouden worden door berichten en onderhandelingen. Gebeurt dit niet, mag het voertuig gratis terug geëist worden.</p>
+            <p>4. Het is niet toegestaan om naar een gang zijn opslag te gaan en het voertuig eruit te eisen zonder dat je een directe aanleiding hebt dat het voertuig daar is opgeslagen.</p>
+            <p>5. Het in beslag nemen van voertuigen voor unofficials is toegestaan, maar indien dit gebeurt ben jij direct verantwoordelijk voor de RP (je moet zelf deelnemen aan onderhandelingen en het eventueel teruggeven van het voertuig).</p>
+            <p>6. Het in beslag nemen van een voertuig door een officiële gang hoort met goede of langdurige roleplay te gebeuren, en niet met de intentie om geld te verdienen.</p>
+            <p>7. Het is niet toegestaan om een voertuig in beslag te nemen van iemand die overleden is in het scenario.</p>
+            <span class="sanctie-badge">Sanctie: Sanctie door CA, mogelijk opschorting van de organisatie</span>
+
+            <h4>Artikel G-2 - Overige gangregels</h4>
+            <p>1. Het is verboden om nepmeldingen te maken in de omgeving van een ganghuis met de intentie tot uitlokken van de criminelen of het in de problemen werken van de rivaliserende groep. Hieronder valt ook het expres uitvoeren van andere illegale praktijken zoals schieten met vuurwapens.</p>
+            <p>2. Het in beslag nemen van een voertuig door een officiële gang hoort met goede of langdurige roleplay te gebeuren, en niet met de intentie om geld te verdienen.</p>
+            <p>3. Wanneer er twee weken lang geen roleplay aan de inbeslagname gebonden wordt, is het toegestaan om het voertuig weer gratis uit de garage te halen.</p>
+            <p>4. Het confisqueren van items, wapens en geld van een speler is alleen toegestaan als hier een roleplay aan is verbonden. Het confisqueren van overheidsobjecten is niet toegestaan.</p>
+            <span class="sanctie-badge">Sanctie: Sanctie door CA, mogelijk opschorting van de organisatie</span>
+
+          <!-- Slotbepaling -->
+            <h2>Slotbepaling: Regels in het kort</h2>
+            <ul>
+              <li>Geen <strong>FailRP</strong> (Roleplay van zeer slechte kwaliteit, niet realistisch).</li>
+              <li>Geen <strong>VDM</strong> (Vehicle Deathmatch, je wagen als wapen gebruiken).</li>
+              <li>Geen <strong>RDM</strong> (Random Deathmatch, zonder goede reden mensen of dieren doodslaan en/of schieten).</li>
+              <li>Geen <strong>Cheats</strong> (het gebruik van cheats resulteert in een regelrechte ban).</li>
+              <li>Geen <strong>Exploits</strong> (bugs/misstanden misbruiken voor eigen profijt).</li>
+              <li>Geen server/roleplay <strong>verstorend gedrag</strong> (mic spammen, trollen, etc.).</li>
+              <li>Geen <strong>Metagaming</strong> (gebruik maken van informatie die jouw karakter niet kan weten).</li>
+              <li>Geen <strong>Cop-baiting</strong> (politie uitdagen/uitlokken).</li>
+              <li>Geen <strong>Spam</strong> (de chat volspammen met nutteloze berichten).</li>
+              <li>Geen <strong>Combat Logging</strong> (zomaar de server verlaten tijdens bijv. een ontvoering).</li>
+              <li>Niet <strong>overdreven schelden</strong> (geen kanker en dergelijke — hier wordt extra streng op gestraft).</li>
+              <li>Houd het <strong>realistisch</strong> (ga niet met een Lamborghini door de woestijn racen met 200 km/h).</li>
+              <li>Ga <strong>zuinig om met je leven</strong> (niet zomaar zelfmoord plegen zonder reden).</li>
+              <li>Na een <strong>respawn</strong> herinnert jouw karakter niets van wat er is gebeurd (je weet nog wel je baan en vrienden, maar niet hoe je bent doodgegaan of door wie).</li>
+              <li>Het is verboden om <strong>OOC</strong> te praten/je karakter te breken.</li>
+              <li>Het is <strong>VERPLICHT</strong> een microfoon te hebben.</li>
+              <li><strong>Nederlands</strong> kunnen spreken is verplicht.</li>
+              <li>Je kunt alleen <strong>contant geld</strong> stelen; bankgeld kan niet gestolen worden.</li>
+              <li>Bij <strong>overheidsdiensten</strong> geldt een zero tolerance beleid m.b.t. drugs of criminele activiteiten. Het is verboden overheidsvoorwerpen te verkopen of weg te geven.</li>
+              <li>Gebruik <code>/report</code> om spelers te rapporteren die niet naar de regels luisteren.</li>
+              <li>Niet <strong>adverteren</strong> met je eigen server/discord.</li>
+              <li>Gebruik <strong>Twitter</strong> voor in-character berichten.</li>
+              <li>Het is verboden <strong>voertuigen van jobs</strong> te gebruiken voor criminaliteit.</li>
+              <li><strong>Buiten-game communiceren</strong> is verboden (alleen overheidsdiensten in porto-kanalen of bij vrijstelling).</li>
+              <li>Het is verboden op <strong>alt-accounts</strong> geld of materieel uit te wisselen.</li>
+              <li>Het is verboden met voertuigen <strong>gebouwen</strong> in te rijden.</li>
+              <li>Onder de <strong>AFK-kick</strong> proberen uit te komen is verboden.</li>
+              <li>Ben je als agent <strong>niet in game</strong>, dan mag je niet deelnemen aan een overval.</li>
+              <li>Na een <strong>moord door een rivaliserende gang</strong>: 24 uur geen wraakacties of roleplay richting een andere gang.</li>
+              <li>Het is verboden een <strong>ambulancier of wegenwachtmedewerker</strong> te vermoorden of ontvoeren bij een oproep.</li>
+              <li>Het is verboden om <strong>drugslocaties of wapens</strong> te verkopen via Twitter (ook niet als "theeblaadjeslocaties", "broodmessen", "waterpistolen", etc.).</li>
+            </ul>
+          </section>
+
+          <!-- Wetboek Section -->
+          <section id="wetboek">
+            <h1>Wetboek Eindhoven</h1>
+            
+            <h2>Algemene Bepalingen</h2>
+            
+            <h3>A1 - Reikwijdte</h3>
+            <p>1. Het Wetboek Eindhoven (verder aangeduid als WEindhoven) is leidend voor alle beschreven gevallen, waarbij als aanvulling het Nederlands Recht van toepassing is.</p>
+            <p>2. Het WEindhoven heeft betrekking op het vaste land, de gemeente, en de stad Eindhoven.</p>
+            <p>3. Het WEindhoven is nauw verweven met de Algemene Plaatselijke Verordening Eindhoven (APV).</p>
+
+            <h3>A2 - Geldigheid</h3>
+            <p>Bij verandering van een wetgeving na het tijdstip waarop het feit begaan is, wordt voor de verdachte de meest gunstigste bepalingen toegepast.</p>
+
+            <h3>A3 - Strafbepaling</h3>
+            <p>1. Straffen zijn vastgesteld en opgenomen per artikel. Hieronder vallen:</p>
+            <ul>
+              <li>Waarschuwingen</li>
+              <li>Taakstraffen</li>
+              <li>Celstraffen</li>
+              <li>Rijontzeggingen</li>
+              <li>Inbeslagnames of invorderingen</li>
+              <li>Boetes</li>
+            </ul>
+            <p>2. Een opgelegde straf kan een combinatie zijn van de bovenstaande strafvormen.</p>
+            <p>3. Er geldt een maximumcelstraf van 400 maanden.</p>
+
+            <h2>Titel I - Vermogensdelicten</h2>
+            
+            <h3>Artikel I-1 Diefstal (310 SR)</h3>
+            <p>Schuldig is een persoon die een goed, of voertuig, wegneemt zonder daarvoor toestemming of enig recht toe te hebben.</p>
+            <table>
+              <tr>
+                <th>Veroordeling</th>
+                <th>Celstraf</th>
+                <th>Taakstraf</th>
+                <th>Boete</th>
+              </tr>
+              <tr>
+                <td>Eerste</td>
+                <td>-</td>
+                <td>14 uur</td>
+                <td>€6.500,-</td>
+              </tr>
+              <tr>
+                <td>Tweede</td>
+                <td>12 maanden</td>
+                <td>-</td>
+                <td>€8.500,-</td>
+              </tr>
+              <tr>
+                <td>Meerdere</td>
+                <td>24 maanden</td>
+                <td>-</td>
+                <td>€10.000,-</td>
+              </tr>
+            </table>
+
+            <h3>Artikel I-3 Diefstal met geweld / Overval (312 SR)</h3>
+            <p>Schuldig is een persoon die een goed wegneemt zonder daarvoor toestemming of enig recht toe te hebben, daarbij gebruik makende van geweld in enige vorm.</p>
+            <table>
+              <tr>
+                <th>Veroordeling</th>
+                <th>Celstraf</th>
+                <th>Boete</th>
+              </tr>
+              <tr>
+                <td>Eerste</td>
+                <td>36 maanden</td>
+                <td>€20.000,-</td>
+              </tr>
+              <tr>
+                <td>Tweede</td>
+                <td>72 maanden</td>
+                <td>€25.000,-</td>
+              </tr>
+              <tr>
+                <td>Meerdere</td>
+                <td>108 maanden</td>
+                <td>€30.000,-</td>
+              </tr>
+            </table>
+
+            <h3>Artikel I-7 Heling (416 SR)</h3>
+            <p>Schuldig is een persoon die een goed, afkomstig uit een misdrijf, verwerft of hierop aanspraak maakt.</p>
+            <table>
+              <tr>
+                <th>Veroordeling</th>
+                <th>Taakstraf</th>
+                <th>Boete</th>
+              </tr>
+              <tr>
+                <td>Eerste</td>
+                <td>20 uur</td>
+                <td>€2.000,-</td>
+              </tr>
+              <tr>
+                <td>Tweede</td>
+                <td>30 uur</td>
+                <td>€4.000,-</td>
+              </tr>
+              <tr>
+                <td>Meerdere</td>
+                <td>60 uur</td>
+                <td>€5.000,-</td>
+              </tr>
+            </table>
+
+            <h2>Titel II - Geweldsdelicten</h2>
+            
+            <h3>Artikel II-2 Gijzeling (282 SR)</h3>
+            <p>Schuldig is een persoon die overgaat tot wederrechtelijke beroving van de vrijheid van een derde.</p>
+            <table>
+              <tr>
+                <th>Veroordeling</th>
+                <th>Celstraf</th>
+                <th>Boete</th>
+              </tr>
+              <tr>
+                <td>Eerste</td>
+                <td>54 maanden</td>
+                <td>€10.000,-</td>
+              </tr>
+              <tr>
+                <td>Tweede</td>
+                <td>63 maanden</td>
+                <td>€15.000,-</td>
+              </tr>
+              <tr>
+                <td>Meerdere</td>
+                <td>72 maanden</td>
+                <td>€20.000,-</td>
+              </tr>
+            </table>
+
+            <h3>Artikel II-4 Doodslag (287 SR)</h3>
+            <p>Schuldig is een persoon die opzettelijk een ander van het leven berooft.</p>
+            <table>
+              <tr>
+                <th>Veroordeling</th>
+                <th>Celstraf</th>
+                <th>Boete</th>
+              </tr>
+              <tr>
+                <td>Eerste</td>
+                <td>72 maanden</td>
+                <td>€15.000,-</td>
+              </tr>
+              <tr>
+                <td>Tweede</td>
+                <td>81 maanden</td>
+                <td>€20.000,-</td>
+              </tr>
+              <tr>
+                <td>Meerdere</td>
+                <td>90 maanden</td>
+                <td>€25.000,-</td>
+              </tr>
+            </table>
+
+            <h3>Artikel II-5 Moord (289 SR)</h3>
+            <p>Schuldig is een persoon die opzettelijk en met voorbedachte rade iemand van het leven berooft.</p>
+            <table>
+              <tr>
+                <th>Veroordeling</th>
+                <th>Celstraf</th>
+                <th>Boete</th>
+              </tr>
+              <tr>
+                <td>Eerste</td>
+                <td>90 maanden</td>
+                <td>€20.000,-</td>
+              </tr>
+              <tr>
+                <td>Tweede</td>
+                <td>99 maanden</td>
+                <td>€25.000,-</td>
+              </tr>
+              <tr>
+                <td>Meerdere</td>
+                <td>108 maanden</td>
+                <td>€30.000,-</td>
+              </tr>
+            </table>
+          </section>
+
+          <!-- Risicogebieden Section -->
+          <section id="risicogebieden">
+            <h1>Risicogebieden binnen Eindhoven</h1>
+            
+            <p>Eindhoven kent enkele risicogebieden. In een risicogebied mag preventief gefouilleerd worden. Dus dat wilt zeggen dat ook voertuigen gecontroleerd mogen worden.</p>
+            <p>De korpsleiding is bevoegd om, in samenspraak met de gemeenteraad van Eindhoven, aanvullende risicogebieden aan te wijzen. Hiervoor gelden dezelfde regels als de normale risicogebieden.</p>
+
+            <h2>Postcodes</h2>
+            
+            <h3>Grote Bank</h3>
+            <p>7016, 7017, 7018, 7019, 7012, 7010</p>
+
+            <h3>Burton Bank Vlakbij Tune Shop</h3>
+            <p>7032, 7031, 7035, 7033</p>
+
+            <h3>Alta Bank Vlakbij Basic Fit</h3>
+            <p>7021, 7003, 7022, 7020, 7059</p>
+
+            <h3>Rockford Hills Bank Vlakbij Golfbaan</h3>
+            <p>5146, 5147, 5148, 5158, 5159</p>
+
+            <h3>Banham Canyon Bank</h3>
+            <p>7066, 7064, 7063</p>
+
+            <h3>Paleto Bay Bank</h3>
+            <p>938, 909, 936, 939</p>
+
+            <h3>Grand Senora Bank</h3>
+            <p>707, 706, 709</p>
+
+            <h3>BP Bank / BP</h3>
+            <p>3213, 3212, 3216, 3208, 3210, 3215, 3214, 3216</p>
+
+            <h3>ANWB</h3>
+            <p>6019</p>
+
+            <h3>Car Dealer</h3>
+            <p>5146</p>
+
+            <h3>Gemeentehuis</h3>
+            <p>7041, 7040</p>
+
+            <h3>Ziekenhuis</h3>
+            <p>7038, 7039</p>
+
+            <h3>Maze bank Arena</h3>
+            <p>2200, 2200-A, 2200-B</p>
+          </section>
+
+          <!-- Douanegebieden Section -->
+          <section id="douanegebieden">
+            <h1>Douanegebieden binnen Eindhoven</h1>
+            
+            <p>Eindhoven kent enkele douanegebieden. In een douanegebied mag preventief gefouilleerd worden. Dus dat wilt zeggen dat ook voertuigen gecontroleerd mogen worden.</p>
+            <p>De korpsleiding is bevoegd om, in samenspraak met de gemeenteraad van Eindhoven, aanvullende douanegebieden aan te wijzen. Hiervoor gelden dezelfde regels als de normale douanegebieden.</p>
+            <blockquote>
+              <p><strong>Opmerking:</strong> Voor een visuele weergave van de douanegebieden, raadpleeg de kaart in de game.</p>
+            </blockquote>
+          </section>
+
+          <!-- NOTAM Section -->
+          <section id="notam">
+            <h1>NOTAM (Notice to Airmen)</h1>
+            
+            <p>De volgende gebieden zijn aangemerkt als no fly zones:</p>
+            <ul>
+              <li>Militaire basis</li>
+              <li>Gevangenis</li>
+              <li>Blokkenpark tot een hoogte van 300 meter (1000 feet)</li>
+              <li>Vliegdekschip</li>
+              <li>Ministerie van Defensie (Nabij postcode 6035)</li>
+            </ul>
+            <blockquote>
+              <p><strong>Let op:</strong> Het overtreden van deze no fly zones kan leiden tot strafrechtelijke vervolging en inbeslagname van het luchtvoertuig.</p>
+            </blockquote>
+          </section>
+
+          <!-- Belastingen Section -->
+          <section id="belastingen">
+            <h1>Belastingen binnen Eindhoven</h1>
+            
+            <h2>Wegenbelasting</h2>
+            <p>Binnen Eindhoven wordt motorvoertuigenbelasting geïnd over motorvoertuigen die in je normale garage staan. Voor deze belasting worden dienstvoertuigen uitgesloten. De belasting wordt automatisch geïnd; u hoeft hiervoor niks te doen.</p>
+            <p>Wanneer u meer dan 4 dagen niet meer in de stad bent geweest, hoeft u niet te voldoen aan deze belasting.</p>
+            <p>De belasting wordt geschaald geïnd. Dit betekent dat hoe meer voertuigen je hebt, hoe meer belasting je betaalt. Fietsen zijn uitgesloten van belasting. Alle overige voertuigen met een motor vallen onder deze regeling.</p>
+
+            <table>
+              <tr>
+                <th>Motorvoertuigen</th>
+                <th>Bedrag per dag</th>
+              </tr>
+              <tr><td>4</td><td>€280,-</td></tr>
+              <tr><td>8</td><td>€1.460,-</td></tr>
+              <tr><td>10</td><td>€2.260,-</td></tr>
+              <tr><td>20</td><td>€7.630,-</td></tr>
+              <tr><td>30</td><td>€14.810,-</td></tr>
+              <tr><td>40</td><td>€23.420,-</td></tr>
+              <tr><td>50</td><td>€33.250,-</td></tr>
+            </table>
+
+            <h2>Tol heffing</h2>
+            <p>Binnen Eindhoven wordt er bij de grensposten tol geïnd. Deze tol wordt over alle motorvoertuigen geheven.</p>
+            <p>Er kan gekozen worden voor een abonnement om korting te krijgen op de tol. Dit bedrag is €450,- per dag, wanneer u meer dan 2 dagen niet meer in de stad bent geweest word dit niet meer geind. De aansluitingskosten van dit abonnement bedragen €1.500,-</p>
+
+            <table>
+              <tr>
+                <th>Met abonnement</th>
+                <th>Zonder abonnement</th>
+              </tr>
+              <tr>
+                <td>€0,-</td>
+                <td>€125,-</td>
+              </tr>
+            </table>
+          </section>
+
+          <!-- Rechtspraak Section -->
+          <section id="rechtspraak">
+            <h1>Regelement voor de rechtspraak</h1>
+            
+            <h2>Introductie</h2>
+            <p>Dit document is opgesteld om transparantie te bieden met betrekking tot de werking van de rechtspraak. Hieronder valt de advocatuur, de officier van justitie, de rechtbank en het ministerie.</p>
+
+            <h2>De advocatuur</h2>
+            <p>De advocatuur in Eindhoven staat formeel in dienst van Justitie. Dit is voornamelijk administratief en heeft geen inhoudelijke gevolgen voor de onpartijdigheid van de advocaten. U mag dus verwachten dat een door u ingehuurde advocaat vrij is van belangenverstrengeling en <em>voor u</em> werkt.</p>
+            <p>Van een advocaat mag u verwachten dat hij of zij u juridisch bijstaat. Dit kan zijn bij het opstellen van een contract, het bijstaan tijdens een verdenking of verhoor, enzovoorts.</p>
+            <p>Uw gesprekken met de advocaat zijn in beginsel geheim. Een advocaat is dan ook geboden de geheimhouding te respecteren, tenzij u als cliënt anders wilt.</p>
+
+            <h3>Recht op een advocaat</h3>
+            <p>Indien u verhoord gaat worden door de politie, dan heeft u voorafgaand aan dat verhoor recht op een advocaat. Indien u een advocaat niet kunt betalen, dan is de politie verplicht een advocaat voor u te regelen.</p>
+            <p>U heeft het recht om een advocaat te weigeren, een verhoor in te gaan zonder advocaat, of uzelf te verdedigen (hoewel dit niet raadzaam is).</p>
+
+            <h2>De Officier van Justitie</h2>
+            <p>De Officier van Justitie (hierna OvJ) heeft binnen Eindhoven de rol van openbaar aanklager, strafvervolger, en advocaat van de overheid. Ook is de OvJ aangewezen voor het uitgeven van bijvoorbeeld huiszoekingsbevelen.</p>
+            <p>Naast de OvJ bestaat er nog de rol van hulpofficier van Justitie (hOvJ), en Hoofdofficier van Justitie (HOvJ).</p>
+
+            <h3>Wanneer wordt de OvJ betrokken?</h3>
+            <ul>
+              <li>Wanneer er een (aan)klacht tegen de staat is</li>
+              <li>Wanneer er besloten moet worden of een hoger beroep gegrond is</li>
+              <li>Wanneer er een hoger beroep uitgevoerd moet worden</li>
+              <li>Wanneer een zaak erg groot wordt (meerdere betrokkenen, zaken tussen twee grote partijen, etc)</li>
+              <li>Wanneer er speciale bevoegdheden nodig zijn, zoals een huiszoekingsbevel</li>
+            </ul>
+
+            <h2>De rechtbank</h2>
+            <p>De rechtbank heeft een relatief kleine rol binnen Eindhoven, maar wel met groot gevolg. Verreweg de meeste zaken zullen nooit voor de rechter verschijnen, omdat ze afgedaan kunnen worden door de politie en de officieren van Justitie (OvJ).</p>
+            <p>Wanneer er besloten wordt tot een rechtszaak, dan wordt er een rechter aangesteld voor die zaak. Binnen Eindhoven zijn geen permanente rechters, maar wordt er wel met zorg een rechter aangesteld op het moment dat dit nodig wordt geacht.</p>
+
+            <h3>Aanwezigen bij rechtszaak</h3>
+            <ul>
+              <li>De rechter</li>
+              <li>Een OvJ</li>
+              <li>Een advocaat van de verdediging</li>
+              <li>De beklaagde en/of verdachte</li>
+              <li>Een notulist/griffier</li>
+            </ul>
+
+            <p>De meeste rechtszaken zijn openbaar en vrij te bezoeken door inwoners van Eindhoven. Uitzonderingen kunnen vanwege de openbare orde en veiligheid gemaakt worden.</p>
+            <p>De uitspraak van de rechter is bindend (er is geen hoger beroep boven de rechter mogelijk in Eindhoven, behalve richting de Hoge Raad indien het de Roleplay ontstijgt).</p>
+          </section>
+
+          <!-- Streamen Section -->
+          <section id="streamen">
+            <h1>Streamen op Eindhoven</h1>
+            
+            <h2>Introductie</h2>
+            <p>Dit document is opgesteld om wat duidelijkheid te bieden wat betreft het creëren van content op Eindhoven. Het is uiteraard toegestaan om content te creëren op Eindhoven, echter zijn hier wel regels aan verbonden.</p>
+            <p>Deze regels gelden voor elke speler die content wilt creëren en niet enkel voor de content creators zoals aangewezen in de Eindhoven discord.</p>
+
+            <h3>Vormen van contentplatvormen:</h3>
+            <ul>
+              <li>Twitch</li>
+              <li>Youtube</li>
+              <li>Tiktok</li>
+            </ul>
+
+            <h2>Regels</h2>
+            <ol>
+              <li>Het is verplicht dat als je live bent, en je deelneemt aan een Discord chat als overheidsdienst, dat je een rood balletje voor jouw naam zet: 🔴</li>
+              <li>Zorg ervoor dat de mensen met wie je in Discord zit afweten van het feit dat je content creëert.</li>
+              <li>Je bent als content creator een visite kaartje voor Eindhoven. Mochten er dingen gebeuren, laat het ons weten.</li>
+              <li>Doordat je jezelf vrij makkelijk in de picture zet, kunnen wij wat strenger zijn tegen streamers aangezien we live beelden van ze hebben.</li>
+              <li>Mocht je iets zien bij een andere content creator wat je niet bevalt. Spreek dan een stafflid aan.</li>
+              <li>FailRP, RDM, VDM en dat soort zaken On-Stream (ook off-stream natuurlijk) wordt direct bestraft.</li>
+              <li>De naam Eindhoven moet in de titel van de video's of livestreams staan zodat het ook door ons gevonden kan worden.</li>
+              <li>Het is niet toegestaan voor content creators vanuit overheidsdiensten om discord porto te laten horen op video's of livestreams.</li>
+              <li>Het is niet toegestaan om deepwebkanalen, telefoonnummers of andere inhoudelijke informatie van telefoons te tonen in video's.</li>
+              <li>Tijdens een livestream is het verplicht om gebruik te maken van streamermodus. Hiermee wordt informatie zoals vernoemd in lid 9 verborgen.</li>
+              <li>Het is niet toegestaan om Eindhoven of een andere spelers in een verkeerd daglicht te zetten.</li>
+            </ol>
+
+            <h2>Sancties</h2>
+            <ul>
+              <li>Bij het tonen van inhoudelijke informatie op de telefoon (nummers, deepwebkanalen, e.d.) zal er bij de eerste overtreding een straf van de 1e categorie uitgeschreven worden. Bij herhaaldelijke overtreding zal ter beoordeling van een stafflid de straf verhoogd kunnen worden.</li>
+              <li>Wanneer tijdens een livestream geen gebruik wordt gemaakt van de streamermodus zal een straf van de 2e categorie volgen. Bij herhaaldelijke overtreding zal ter beoordeling van een stafflid de straf verhoogd kunnen worden.</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" style="margin-top: 4rem;">
+      <div class="footer-top">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="/home">
+              <span class="logo-mark">
+                <img src="../assets/images/ehlogo.png" alt="Eindhoven Roleplay" />
+              </span>
+              <span class="logo-text">Eindhoven Roleplay</span>
+            </a>
+            <p class="footer-brand-desc">
+              De beste FiveM roleplay ervaring van Nederland. Kwaliteit, sfeer en realistische verhalen staan bij ons centraal.
+            </p>
+            <div class="footer-socials">
+              <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer" aria-label="Discord">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.73 4.87A18.7 18.7 0 0 0 15.1 3.5a13 13 0 0 0-.64 1.3 17.5 17.5 0 0 0-4.92 0c-.19-.45-.41-.88-.64-1.3A18.6 18.6 0 0 0 4.27 4.87C1.6 8.9.88 12.83 1.23 16.7a18.6 18.6 0 0 0 5.53 2.8c.45-.62.85-1.27 1.2-1.95a12 12 0 0 1-1.9-.93c.16-.12.32-.24.47-.36a13.7 13.7 0 0 0 11 0c.16.12.32.24.47.36-.62.37-1.26.69-1.9.93.35.68.75 1.33 1.2 1.95a18.6 18.6 0 0 0 5.53-2.8c.48-4.48-.7-8.38-3.13-11.83ZM8.7 14.6c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Zm6.6 0c-1.04 0-1.9-.96-1.9-2.12 0-1.16.83-2.12 1.9-2.12 1.06 0 1.91.96 1.9 2.12 0 1.16-.84 2.12-1.9 2.12Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Navigatie</h4>
+            <ul>
+              <li><a href="/home">Home</a></li>
+              <li><a href="/apv">Regels</a></li>
+              <li><a href="https://eindhoven-roleplay.tebex.io/" target="_blank" rel="noreferrer">Doneren</a></li>
+              <li><a href="/solliciteren">Solliciteren</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Discord Server</a></li>
+              <li><a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Support Ticket</a></li>
+              <li><a href="/solliciteren">Solliciteren</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Informatie</h4>
+            <ul>
+              <li><a href="/apv">Serverregels</a></li>
+              <li><a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Veelgestelde Vragen</a></li>
+              <li><a href="https://eindhoven-roleplay.tebex.io/" target="_blank" rel="noreferrer">Store &amp; Donaties</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <span>&copy; 2026 Eindhoven Roleplay. Alle rechten voorbehouden.</span>
+          <div class="footer-bottom-links">
+            <a href="https://discord.gg/eindhovenrp" target="_blank" rel="noreferrer">Contact</a>
+            <span class="footer-dot"></span>
+            <a href="/apv">Regels</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+            
+            document.querySelectorAll('.docs-sidebar a').forEach(link => {
+              link.classList.remove('active');
+            });
+            this.classList.add('active');
+          }
+        });
+      });
+
+      // Scroll-spy based on scroll position
+      const sections = document.querySelectorAll('section[id]');
+      const sidebarLinks = document.querySelectorAll('.docs-sidebar a');
+      
+      // Build lookup map once
+      const linkMap = {};
+      sidebarLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (!linkMap[href]) linkMap[href] = [];
+        linkMap[href].push(link);
+      });
+
+      // Cache section offsets to avoid layout thrashing
+      let sectionOffsets = [];
+      function cacheSectionOffsets() {
+        sectionOffsets = Array.from(sections).map(s => ({
+          id: s.getAttribute('id'),
+          top: s.offsetTop
+        }));
+      }
+      cacheSectionOffsets();
+      window.addEventListener('resize', cacheSectionOffsets, { passive: true });
+
+      let currentActive = null;
+      let ticking = false;
+
+      function updateScrollSpy() {
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const docHeight = document.documentElement.scrollHeight;
+        let activeId = null;
+
+        // If at the very bottom, activate last section
+        if (scrollY + windowHeight >= docHeight - 50) {
+          activeId = sectionOffsets[sectionOffsets.length - 1].id;
+        } else {
+          // Find the section whose top is closest to but above the scroll position + offset
+          const offset = 200;
+          for (let i = sectionOffsets.length - 1; i >= 0; i--) {
+            if (sectionOffsets[i].top <= scrollY + offset) {
+              activeId = sectionOffsets[i].id;
+              break;
+            }
+          }
+        }
+
+        // Fallback to first section if none matched
+        if (!activeId && sectionOffsets.length > 0) {
+          activeId = sectionOffsets[0].id;
+        }
+
+        const newHref = `#${activeId}`;
+        if (currentActive === newHref) return;
+
+        sidebarLinks.forEach(l => l.classList.remove('active'));
+
+        if (linkMap[newHref]) {
+          linkMap[newHref].forEach(l => l.classList.add('active'));
+        }
+
+        currentActive = newHref;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            updateScrollSpy();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }, { passive: true });
+
+      // Run once on load
+      updateScrollSpy();
+    </script>
+    
+    <!-- Load navbar and promo-bar via script.js -->
+    <script src="../assets/js/script.js" defer></script>
+  </body>
+</html>
