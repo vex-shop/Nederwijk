@@ -40,14 +40,14 @@ const navbarMarkup = `
   <section class="promo-bar">
     <div class="promo-track">
 <div class="promo-items">
-  <span class="promo-item">🚀 TITAN ROLEPLAY IS NU OPEN!</span>
+  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY IS BEINA OPEN!</span>
   <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
   <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
   <span class="promo-item">💎 PREMIUM RP ERVARING</span>
   <span class="promo-item">👑 WORD EEN VAN DE EERSTE SPELERS</span>
 </div>
 <div class="promo-items">
-  <span class="promo-item">🚀 TITAN ROLEPLAY IS NU OPEN!</span>
+  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY BEINA NU OPEN!</span>
   <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
   <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
   <span class="promo-item">💎 PREMIUM RP ERVARING</span>
