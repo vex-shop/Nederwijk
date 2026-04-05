@@ -32,7 +32,7 @@ const basePath = isSubPage ? "../" : "";
 const homeAnchor = isSubPage ? "../" : "/";
 const regelsHref = basePath + "apv";
 const applyAnchor = basePath + "solliciteren";
-const donateAnchor = "https://Titan.tebex.io/";
+const donateAnchor = "https://Nederwijk.tebex.io/";
 const logoSrc = basePath + "assets/images/ehlogo.png";
 
 // ── Navbar ──
@@ -59,8 +59,8 @@ const navbarMarkup = `
   <header class="site-header">
     <nav class="navbar">
       <a class="logo" href="${homeAnchor}">
-        <img src="${logoSrc}" alt="Titan Roleplay">
-        <span>Titan Roleplay</span>
+        <img src="${logoSrc}" alt="Nederwijk Roleplay">
+        <span>Nederwijk Roleplay</span>
       </a>
 
       <div class="nav-links">
@@ -68,7 +68,7 @@ const navbarMarkup = `
         <a class="${isRulesPage ? "active" : ""}" href="${regelsHref}">APV</a>
         <a href="${donateAnchor}" target="_blank">Doneren</a>
         <a class="${isSolliciterenPage ? "active" : ""}" href="${applyAnchor}">Solliciteren</a>
-        <a href="https://discord.gg/Titanrp" target="_blank">Discord</a>
+        <a href="https://discord.gg/Nederwijkrp" target="_blank">Discord</a>
       </div>
 
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
