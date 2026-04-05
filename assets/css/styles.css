@@ -2322,7 +2322,7 @@ body.solliciteren-page .promo-bar {
 /* Card accent colors */
 .sol-card-staff { border-color: rgba(1, 25, 102, 0.15); }
 .sol-card-staff:hover { border-color: rgba(0, 20, 110, 0.08); }
-.sol-card-staff::before { background: linear-gradient(90deg, transparent, #59dce7, transparent); }
+.sol-card-staff::before { background: linear-gradient(90deg, transparent, #0030b4, transparent); }
 
 .sol-card-politie { border-color: rgba(59, 130, 246, 0.12); }
 .sol-card-politie:hover { border-color: rgba(59, 130, 246, 0.3); }
