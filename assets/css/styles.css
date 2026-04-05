@@ -98,7 +98,7 @@ body:not(.home-page):not(.rules-page):not(.solliciteren-page) .site-header {
   right: 0;
   z-index: 51;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  border-bottom: 1px solid rgba(89, 220, 231, 0.2);
+  border-bottom: 1px solid rgba(1, 25, 102, 0.2);
   overflow: hidden;
   height: 40px;
   display: none;
@@ -419,7 +419,7 @@ body.solliciteren-page .promo-bar {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(89, 220, 231, 0.08), transparent 60%);
+  background: linear-gradient(120deg, rgba(1, 25, 102, 0.08), transparent 60%);
   pointer-events: none;
 }
 
@@ -629,11 +629,11 @@ body.solliciteren-page .promo-bar {
   border-color: rgba(255, 255, 255, 0.24);
   background: linear-gradient(
     135deg,
-    rgba(89, 220, 231, 0.4),
+    rgba(1, 25, 102, 0.4),
     rgba(10, 21, 27, 0.75)
   );
   box-shadow: 0 18px 34px rgba(0, 0, 0, 0.35),
-    0 0 18px rgba(89, 220, 231, 0.18),
+    0 0 18px rgba(1, 25, 102, 0.18),
     inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
@@ -1284,7 +1284,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(89, 220, 231, 0.25), transparent);
+  background: linear-gradient(90deg, transparent, rgba(1, 25, 102, 0.25), transparent);
 }
 
 .home-donate::after {
@@ -1294,7 +1294,7 @@ body.solliciteren-page .promo-bar {
   right: -80px;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(89, 220, 231, 0.08) 0%, rgba(89, 220, 231, 0.03) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(1, 25, 102, 0.25)) 0%, rgba(1, 25, 102, 0.03) 40%, transparent 70%);
   pointer-events: none;
   animation: donateOrb1 8s ease-in-out infinite;
 }
@@ -1311,8 +1311,8 @@ body.solliciteren-page .promo-bar {
 
 .home-donate .section-header .eyebrow {
   animation: none;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.25), rgba(109, 123, 255, 0.2));
-  border: 1px solid rgba(89, 220, 231, 0.4);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.25), rgba(109, 123, 255, 0.2));
+  border: 1px solid rgba(1, 25, 102, 0.4);
 }
 
 .home-donate .section-header .eyebrow::after {
@@ -1320,7 +1320,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .home-donate .section-header h2 {
-  background: linear-gradient(135deg, #ffffff 30%, #59dce7 100%);
+  background: linear-gradient(135deg, #ffffff 30%, #010d52 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1341,7 +1341,7 @@ body.solliciteren-page .promo-bar {
   padding: 40px 28px 32px;
   border-radius: 24px;
   background: linear-gradient(160deg, rgba(20, 35, 55, 0.8), rgba(12, 20, 32, 0.9));
-  border: 1px solid rgba(89, 220, 231, 0.12);
+  border: 1px solid rgba(1, 25, 102, 0.12);
   box-shadow:
     0 16px 40px rgba(0, 0, 0, 0.35),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
@@ -1370,7 +1370,7 @@ body.solliciteren-page .promo-bar {
   border-color: rgba(0, 20, 110, 0.08);
   box-shadow:
     0 28px 56px rgba(0, 0, 0, 0.45),
-    0 0 40px rgba(89, 220, 231, 0.1),
+    0 0 40px rgba(1, 25, 102, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
@@ -1388,7 +1388,7 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.2), rgba(109, 123, 255, 0.15));
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.2), rgba(109, 123, 255, 0.15));
   border: 1px solid rgba(0, 20, 110, 0.08);
   color: var(--primary);
   font-weight: 800;
@@ -1398,7 +1398,7 @@ body.solliciteren-page .promo-bar {
 
 .donate-step-item:hover .donate-step-num {
   transform: scale(1.1);
-  box-shadow: 0 0 16px rgba(89, 220, 231, 0.3);
+  box-shadow: 0 0 16px rgba(1, 25, 102, 0.3);
 }
 
 .donate-step-icon {
@@ -1408,24 +1408,24 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.2), rgba(109, 123, 255, 0.12));
-  border: 1px solid rgba(89, 220, 231, 0.3);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.2), rgba(109, 123, 255, 0.12));
+  border: 1px solid rgba(1, 25, 102, 0.3);
   margin-bottom: 22px;
-  box-shadow: 0 8px 24px rgba(89, 220, 231, 0.1), 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(1, 25, 102, 0.1), 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .donate-step-item:hover .donate-step-icon {
   transform: scale(1.08) translateY(-2px);
-  box-shadow: 0 12px 32px rgba(89, 220, 231, 0.2), 0 4px 12px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.3), rgba(109, 123, 255, 0.2));
+  box-shadow: 0 12px 32px rgba(1, 25, 102, 0.2), 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.3), rgba(109, 123, 255, 0.2));
 }
 
 .donate-step-icon svg {
   width: 28px;
   height: 28px;
   color: var(--primary);
-  filter: drop-shadow(0 2px 4px rgba(89, 220, 231, 0.3));
+  filter: drop-shadow(0 2px 4px rgba(1, 25, 102, 0.3));
 }
 
 .donate-step-item h4 {
@@ -1451,15 +1451,15 @@ body.solliciteren-page .promo-bar {
   gap: 24px;
   padding: 24px 32px;
   border-radius: 16px;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.06), rgba(109, 123, 255, 0.04));
-  border: 1px solid rgba(89, 220, 231, 0.15);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.06), rgba(109, 123, 255, 0.04));
+  border: 1px solid rgba(1, 25, 102, 0.15);
   position: relative;
   z-index: 2;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .donate-cta-row:hover {
-  border-color: rgba(89, 220, 231, 0.25);
+  border-color: rgba(1, 25, 102, 0.25);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
@@ -1485,17 +1485,17 @@ body.solliciteren-page .promo-bar {
   text-decoration: none;
   padding: 10px 24px;
   border-radius: 12px;
-  background: rgba(89, 220, 231, 0.08);
-  border: 1px solid rgba(89, 220, 231, 0.2);
+  background: rgba(1, 25, 102, 0.08);
+  border: 1px solid rgba(1, 25, 102, 0.2);
   transition: all 0.3s ease;
   white-space: nowrap;
 }
 
 .donate-cta-link:hover {
   color: #ffffff;
-  background: rgba(89, 220, 231, 0.18);
-  border-color: rgba(89, 220, 231, 0.5);
-  box-shadow: 0 4px 20px rgba(89, 220, 231, 0.15);
+  background: rgba(1, 25, 102, 0.18);
+  border-color: rgba(1, 25, 102, 0.5);
+  box-shadow: 0 4px 20px rgba(1, 25, 102, 0.15);
   text-decoration: none;
   transform: translateX(4px);
 }
@@ -1522,7 +1522,7 @@ body.solliciteren-page .promo-bar {
   height: 200px;
   top: 30%;
   right: 5%;
-  background: radial-gradient(circle, rgba(89, 220, 231, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(1, 25, 102, 0.05) 0%, transparent 70%);
   animation: donateDecor2 9s ease-in-out infinite;
 }
 
@@ -1554,14 +1554,14 @@ body.solliciteren-page .promo-bar {
   gap: 10px;
   padding: 10px 20px;
   border-radius: 999px;
-  background: rgba(89, 220, 231, 0.06);
-  border: 1px solid rgba(89, 220, 231, 0.12);
+  background: rgba(1, 25, 102, 0.06);
+  border: 1px solid rgba(1, 25, 102, 0.12);
   transition: all 0.3s ease;
 }
 
 .donate-feature:hover {
-  background: rgba(89, 220, 231, 0.12);
-  border-color: rgba(89, 220, 231, 0.3);
+  background: rgba(1, 25, 102, 0.12);
+  border-color: rgba(1, 25, 102, 0.3);
   transform: translateY(-2px);
 }
 
@@ -1601,7 +1601,7 @@ body.solliciteren-page .promo-bar {
   height: 250px;
   bottom: 15%;
   left: 5%;
-  background: radial-gradient(circle, rgba(89, 220, 231, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(1, 25, 102, 0.05) 0%, transparent 70%);
   animation: applyGlow2 8s ease-in-out infinite;
 }
 
@@ -1623,9 +1623,9 @@ body.solliciteren-page .promo-bar {
   content-visibility: auto;
   contain-intrinsic-size: 0 900px;
   background:
-    radial-gradient(ellipse at 20% 0%, rgba(89, 220, 231, 0.08), transparent 50%),
+    radial-gradient(ellipse at 20% 0%, rgba(1, 25, 102, 0.08), transparent 50%),
     radial-gradient(ellipse at 80% 100%, rgba(109, 123, 255, 0.06), transparent 50%),
-    radial-gradient(ellipse at 50% 50%, rgba(89, 220, 231, 0.03), transparent 60%),
+    radial-gradient(ellipse at 50% 50%, rgba(1, 25, 102, 0.03), transparent 60%),
     linear-gradient(180deg, #0d1722 0%, #121e2e 40%, #0f1b28 70%, #0c1520 100%);
 }
 
@@ -1636,7 +1636,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(109, 123, 255, 0.2), rgba(89, 220, 231, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(109, 123, 255, 0.2), rgba(1, 25, 102, 0.2), transparent);
 }
 
 .home-apply::after {
@@ -1713,8 +1713,8 @@ body.solliciteren-page .promo-bar {
   color: var(--primary);
   margin-bottom: 16px;
   padding: 6px 16px;
-  background: rgba(89, 220, 231, 0.08);
-  border: 1px solid rgba(89, 220, 231, 0.2);
+  background: rgba(1, 25, 102, 0.08);
+  border: 1px solid rgba(1, 25, 102, 0.2);
   border-radius: 999px;
 }
 
@@ -1766,7 +1766,7 @@ body.solliciteren-page .promo-bar {
 
 .apply-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(89, 220, 231, 0.2), rgba(109, 123, 255, 0.15), transparent);
+  background: linear-gradient(90deg, transparent, rgba(1, 25, 102, 0.2), rgba(109, 123, 255, 0.15), transparent);
   margin: 32px 0;
 }
 
@@ -1798,17 +1798,17 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.12), rgba(109, 123, 255, 0.08));
-  border: 1px solid rgba(89, 220, 231, 0.25);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.12), rgba(109, 123, 255, 0.08));
+  border: 1px solid rgba(1, 25, 102, 0.25);
   flex-shrink: 0;
   transition: background 0.3s ease, border-color 0.3s ease, transform 0.25s ease;
 }
 
 .apply-stat:hover .apply-stat-icon {
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.22), rgba(109, 123, 255, 0.15));
-  border-color: rgba(89, 220, 231, 0.5);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.22), rgba(109, 123, 255, 0.15));
+  border-color: rgba(1, 25, 102, 0.5);
   transform: scale(1.08);
-  box-shadow: 0 4px 16px rgba(89, 220, 231, 0.15);
+  box-shadow: 0 4px 16px rgba(1, 25, 102, 0.15);
 }
 
 .apply-stat-icon svg {
@@ -1845,7 +1845,7 @@ body.solliciteren-page .promo-bar {
   padding: 32px;
   border-radius: 20px;
   background: linear-gradient(160deg, rgba(18, 30, 48, 0.5), rgba(12, 20, 32, 0.6));
-  border: 1px solid rgba(89, 220, 231, 0.1);
+  border: 1px solid rgba(1, 25, 102, 0.1);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -1863,8 +1863,8 @@ body.solliciteren-page .promo-bar {
 }
 
 .apply-process:hover {
-  border-color: rgba(89, 220, 231, 0.2);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25), 0 0 30px rgba(89, 220, 231, 0.04);
+  border-color: rgba(1, 25, 102, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25), 0 0 30px rgba(1, 25, 102, 0.04);
 }
 
 .apply-process-title {
@@ -1873,7 +1873,7 @@ body.solliciteren-page .promo-bar {
   color: var(--text);
   margin-bottom: 28px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(89, 220, 231, 0.12);
+  border-bottom: 1px solid rgba(1, 25, 102, 0.12);
 }
 
 .apply-step-row {
@@ -1888,14 +1888,14 @@ body.solliciteren-page .promo-bar {
 }
 
 .apply-step-row:hover {
-  background: rgba(89, 220, 231, 0.04);
+  background: rgba(1, 25, 102, 0.04);
   transform: translateX(4px);
 }
 
 .apply-step-row:hover .apply-step-circle {
-  background: rgba(89, 220, 231, 0.25);
-  border-color: rgba(89, 220, 231, 0.6);
-  box-shadow: 0 0 14px rgba(89, 220, 231, 0.2);
+  background: rgba(1, 25, 102, 0.25);
+  border-color: rgba(1, 25, 102, 0.6);
+  box-shadow: 0 0 14px rgba(1, 25, 102, 0.2);
   transform: scale(1.1);
 }
 
@@ -1925,7 +1925,7 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(89, 220, 231, 0.12);
+  background: rgba(1, 25, 102, 0.12);
   border: 1.5px solid rgba(0, 20, 110, 0.08);
   color: var(--primary);
   font-weight: 700;
@@ -1937,7 +1937,7 @@ body.solliciteren-page .promo-bar {
 .apply-step-line {
   width: 1.5px;
   height: 36px;
-  background: linear-gradient(180deg, rgba(89, 220, 231, 0.3), rgba(89, 220, 231, 0.05));
+  background: linear-gradient(180deg, rgba(1, 25, 102, 0.3), rgba(1, 25, 102, 0.05));
 }
 
 .apply-step-text {
@@ -2012,13 +2012,13 @@ body.solliciteren-page .promo-bar {
 }
 
 .apply-req-item:hover {
-  background: rgba(89, 220, 231, 0.06);
+  background: rgba(1, 25, 102, 0.06);
   transform: translateX(4px);
 }
 
 .apply-req-item:hover svg {
   transform: scale(1.2);
-  filter: drop-shadow(0 0 6px rgba(89, 220, 231, 0.4));
+  filter: drop-shadow(0 0 6px rgba(1, 25, 102, 0.4));
 }
 
 .apply-req-item:hover span {
@@ -2060,7 +2060,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(89, 220, 231, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(1, 25, 102, 0.2), transparent);
 }
 
 .sol-hero-glow {
@@ -2084,7 +2084,7 @@ body.solliciteren-page .promo-bar {
   height: 400px;
   top: -50px;
   right: -80px;
-  background: radial-gradient(circle, rgba(89, 220, 231, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(1, 25, 102, 0.06) 0%, transparent 70%);
   animation: solGlow2 8s ease-in-out infinite;
 }
 
@@ -2164,7 +2164,7 @@ body.solliciteren-page .promo-bar {
   position: relative;
   border-radius: 28px;
   background: linear-gradient(160deg, rgba(18, 30, 48, 0.85), rgba(12, 20, 32, 0.95));
-  border: 1px solid rgba(89, 220, 231, 0.1);
+  border: 1px solid rgba(1, 25, 102, 0.1);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   display: flex;
   flex-direction: row;
@@ -2186,8 +2186,8 @@ body.solliciteren-page .promo-bar {
 
 .sol-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(89, 220, 231, 0.3);
-  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.45), 0 0 50px rgba(89, 220, 231, 0.06);
+  border-color: rgba(1, 25, 102, 0.3);
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.45), 0 0 50px rgba(1, 25, 102, 0.06);
 }
 
 .sol-card:hover::before {
@@ -2209,12 +2209,12 @@ body.solliciteren-page .promo-bar {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at center, rgba(89, 220, 231, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(1, 25, 102, 0.06) 0%, transparent 70%);
   transition: opacity 0.3s ease;
 }
 
 .sol-card:hover .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(89, 220, 231, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(1, 25, 102, 0.12) 0%, transparent 70%);
 }
 
 .sol-card-img {
@@ -2229,7 +2229,7 @@ body.solliciteren-page .promo-bar {
 
 .sol-card:hover .sol-card-img {
   transform: scale(1.1) translateY(-4px);
-  filter: drop-shadow(0 16px 32px rgba(89, 220, 231, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(1, 25, 102, 0.15));
 }
 
 /* Card body */
@@ -2295,15 +2295,15 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-card-btn-primary {
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.25), rgba(109, 123, 255, 0.2));
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.25), rgba(109, 123, 255, 0.2));
   color: #ffffff;
   border: 1px solid rgba(0, 20, 110, 0.08);
-  box-shadow: 0 8px 24px rgba(89, 220, 231, 0.12);
+  box-shadow: 0 8px 24px rgba(1, 25, 102, 0.12);
 }
 
 .sol-card-btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 32px rgba(89, 220, 231, 0.25);
+  box-shadow: 0 14px 32px rgba(1, 25, 102, 0.25);
   background: linear-gradient(135deg, rgba(0, 20, 110, 0.08), rgba(109, 123, 255, 0.3));
 }
 
@@ -2320,7 +2320,7 @@ body.solliciteren-page .promo-bar {
 }
 
 /* Card accent colors */
-.sol-card-staff { border-color: rgba(89, 220, 231, 0.15); }
+.sol-card-staff { border-color: rgba(1, 25, 102, 0.15); }
 .sol-card-staff:hover { border-color: rgba(0, 20, 110, 0.08); }
 .sol-card-staff::before { background: linear-gradient(90deg, transparent, #59dce7, transparent); }
 
@@ -2359,7 +2359,7 @@ body.solliciteren-page .promo-bar {
   position: relative;
   padding: 100px 24px 110px;
   background:
-    radial-gradient(ellipse at 30% 0%, rgba(89, 220, 231, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 0%, rgba(1, 25, 102, 0.06) 0%, transparent 50%),
     radial-gradient(ellipse at 70% 100%, rgba(109, 123, 255, 0.05) 0%, transparent 50%),
     linear-gradient(180deg, #0a1018 0%, #0d1724 40%, #0b1320 100%);
   overflow: hidden;
@@ -2371,7 +2371,7 @@ body.solliciteren-page .promo-bar {
   right: -100px;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(89, 220, 231, 0.06) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(1, 25, 102, 0.06) 0%, transparent 65%);
   pointer-events: none;
   animation: solProcessOrb 10s ease-in-out infinite;
 }
@@ -2421,7 +2421,7 @@ body.solliciteren-page .promo-bar {
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.2), rgba(109, 123, 255, 0.15));
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.2), rgba(109, 123, 255, 0.15));
   border: 1px solid rgba(0, 20, 110, 0.08);
   color: var(--primary);
   margin-bottom: 20px;
@@ -2462,15 +2462,15 @@ body.solliciteren-page .promo-bar {
   padding: 40px 36px 36px;
   border-radius: 26px;
   background: linear-gradient(165deg, rgba(16, 28, 46, 0.75), rgba(10, 18, 30, 0.85));
-  border: 1px solid rgba(89, 220, 231, 0.1);
+  border: 1px solid rgba(1, 25, 102, 0.1);
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.04);
   transition: border-color 0.35s ease, box-shadow 0.35s ease, transform 0.35s ease;
 }
 
 .sol-route:hover {
   transform: translateY(-4px);
-  border-color: rgba(89, 220, 231, 0.22);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(89, 220, 231, 0.04);
+  border-color: rgba(1, 25, 102, 0.22);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(1, 25, 102, 0.04);
 }
 
 .sol-route--discord:hover {
@@ -2496,9 +2496,9 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.15), rgba(109, 123, 255, 0.1));
-  border: 1px solid rgba(89, 220, 231, 0.3);
-  box-shadow: 0 6px 20px rgba(89, 220, 231, 0.08);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.15), rgba(109, 123, 255, 0.1));
+  border: 1px solid rgba(1, 25, 102, 0.3);
+  box-shadow: 0 6px 20px rgba(1, 25, 102, 0.08);
 }
 
 .sol-route-icon svg {
@@ -2567,7 +2567,7 @@ body.solliciteren-page .promo-bar {
   transform: translateX(-50%);
   width: 2px;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(89, 220, 231, 0.2), rgba(89, 220, 231, 0.05));
+  background: linear-gradient(180deg, rgba(1, 25, 102, 0.2), rgba(1, 25, 102, 0.05));
   border-radius: 2px;
 }
 
@@ -2584,15 +2584,15 @@ body.solliciteren-page .promo-bar {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: linear-gradient(135deg, rgba(89, 220, 231, 0.12), rgba(109, 123, 255, 0.08));
-  border: 1px solid rgba(89, 220, 231, 0.2);
-  box-shadow: 0 4px 16px rgba(89, 220, 231, 0.06);
+  background: linear-gradient(135deg, rgba(1, 25, 102, 0.12), rgba(109, 123, 255, 0.08));
+  border: 1px solid rgba(1, 25, 102, 0.2);
+  box-shadow: 0 4px 16px rgba(1, 25, 102, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .sol-step:hover .sol-step-marker {
   transform: scale(1.08);
-  box-shadow: 0 6px 20px rgba(89, 220, 231, 0.14);
+  box-shadow: 0 6px 20px rgba(1, 25, 102, 0.14);
 }
 
 .sol-step-marker span {
@@ -2650,7 +2650,7 @@ body.solliciteren-page .promo-bar {
   padding: 20px 28px;
   border-radius: 18px;
   background: linear-gradient(135deg, rgba(18, 30, 48, 0.5), rgba(12, 20, 32, 0.6));
-  border: 1px solid rgba(89, 220, 231, 0.08);
+  border: 1px solid rgba(1, 25, 102, 0.08);
 }
 
 .sol-req-item {
@@ -2665,8 +2665,8 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-req-item:hover {
-  border-color: rgba(89, 220, 231, 0.15);
-  background: rgba(89, 220, 231, 0.04);
+  border-color: rgba(1, 25, 102, 0.15);
+  background: rgba(1, 25, 102, 0.04);
 }
 
 .sol-req-item svg {
@@ -2692,7 +2692,7 @@ body.solliciteren-page .promo-bar {
   min-height: 100vh;
   padding: 160px 32px 100px;
   background:
-    radial-gradient(ellipse at 30% 0%, rgba(89, 220, 231, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 0%, rgba(1, 25, 102, 0.05) 0%, transparent 50%),
     radial-gradient(ellipse at 70% 100%, rgba(109, 123, 255, 0.04) 0%, transparent 50%),
     linear-gradient(180deg, #0a0e14 0%, #0d1822 100%);
   position: relative;
@@ -2711,7 +2711,7 @@ body.solliciteren-page .promo-bar {
   height: 700px;
   top: -250px;
   left: -200px;
-  background: radial-gradient(circle, rgba(89, 220, 231, 0.045) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(1, 25, 102, 0.045) 0%, transparent 65%);
 }
 
 .sf-glow-2 {
@@ -2787,7 +2787,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .sf-sidebar-card:hover {
-  border-color: rgba(89, 220, 231, 0.12);
+  border-color: rgba(1, 25, 102, 0.12);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -2850,8 +2850,8 @@ body.solliciteren-page .promo-bar {
   width: 24px;
   height: 24px;
   border-radius: 6px;
-  background: rgba(89, 220, 231, 0.08);
-  border: 1px solid rgba(89, 220, 231, 0.12);
+  background: rgba(1, 25, 102, 0.08);
+  border: 1px solid rgba(1, 25, 102, 0.12);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2985,8 +2985,8 @@ body.solliciteren-page .promo-bar {
 
 .sf-field input:focus,
 .sf-field textarea:focus {
-  border-color: rgba(89, 220, 231, 0.3);
-  box-shadow: 0 0 0 3px rgba(89, 220, 231, 0.06);
+  border-color: rgba(1, 25, 102, 0.3);
+  box-shadow: 0 0 0 3px rgba(1, 25, 102, 0.06);
 }
 
 .sf-field textarea {
@@ -3025,7 +3025,7 @@ body.solliciteren-page .promo-bar {
 
 .sf-btn:hover:not(:disabled) {
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(89, 220, 231, 0.25);
+  border-color: rgba(1, 25, 102, 0.25);
   transform: translateY(-1px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
@@ -3105,7 +3105,7 @@ body.solliciteren-page .promo-bar {
 /* Home CTA Section */
 .home-cta {
   background:
-    radial-gradient(ellipse at 50% 0%, rgba(89, 220, 231, 0.12), transparent 60%),
+    radial-gradient(ellipse at 50% 0%, rgba(1, 25, 102, 0.12), transparent 60%),
     linear-gradient(180deg, #0b141c 0%, #0d1520 50%, #0b141c 100%);
   position: relative;
   text-align: center;
@@ -3118,7 +3118,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(89, 220, 231, 0.15), transparent);
+  background: linear-gradient(90deg, transparent, rgba(1, 25, 102, 0.15), transparent);
 }
 
 .home-cta-inner {
@@ -3157,7 +3157,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .cta {
-  background: radial-gradient(circle at top, rgba(89, 220, 231, 0.2), transparent 60%);
+  background: radial-gradient(circle at top, rgba(1, 25, 102, 0.2), transparent 60%);
 }
 
 .cta-card {
@@ -3242,8 +3242,8 @@ body.solliciteren-page .promo-bar {
 }
 
 .footer-socials a:hover {
-  background: rgba(89, 220, 231, 0.1);
-  border-color: rgba(89, 220, 231, 0.3);
+  background: rgba(1, 25, 102, 0.1);
+  border-color: rgba(1, 25, 102, 0.3);
   color: var(--primary);
   transform: translateY(-2px);
 }
@@ -3428,7 +3428,7 @@ body.solliciteren-page .promo-bar {
     -webkit-backdrop-filter: blur(24px);
     border: none;
     border-radius: 0 0 20px 20px;
-    border-top: 1px solid rgba(89, 220, 231, 0.1);
+    border-top: 1px solid rgba(1, 25, 102, 0.1);
     padding: 12px 16px 20px;
     flex-direction: column;
     align-items: stretch;
@@ -3458,16 +3458,16 @@ body.solliciteren-page .promo-bar {
 
   .nav-links a:hover,
   .nav-links a:focus {
-    background: rgba(89, 220, 231, 0.08);
+    background: rgba(1, 25, 102, 0.08);
     color: #ffffff;
-    border-color: rgba(89, 220, 231, 0.12);
+    border-color: rgba(1, 25, 102, 0.12);
     transform: translateX(6px);
   }
 
   .nav-links a.active {
-    background: rgba(89, 220, 231, 0.1);
+    background: rgba(1, 25, 102, 0.1);
     color: var(--primary);
-    border-color: rgba(89, 220, 231, 0.2);
+    border-color: rgba(1, 25, 102, 0.2);
     font-weight: 700;
   }
 
