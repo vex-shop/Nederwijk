@@ -68,7 +68,7 @@ const navbarMarkup = `
         <a class="${isRulesPage ? "active" : ""}" href="${regelsHref}">APV</a>
         <a href="${donateAnchor}" target="_blank">Doneren</a>
         <a class="${isSolliciterenPage ? "active" : ""}" href="${applyAnchor}">Solliciteren</a>
-        <a href="https://discord.gg/Nederwijkrp" target="_blank">Discord</a>
+        <a href="https://discord.gg/Qrs68Z2X9a" target="_blank">Discord</a>
       </div>
 
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
