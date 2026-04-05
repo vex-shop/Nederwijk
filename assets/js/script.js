@@ -32,35 +32,35 @@ const basePath = isSubPage ? "../" : "";
 const homeAnchor = isSubPage ? "../" : "/";
 const regelsHref = basePath + "apv";
 const applyAnchor = basePath + "solliciteren";
-const donateAnchor = "https://eindhoven.tebex.io/";
+const donateAnchor = "https://Titan.tebex.io/";
 const logoSrc = basePath + "assets/images/ehlogo.png";
 
 // ── Navbar ──
 const navbarMarkup = `
   <section class="promo-bar">
     <div class="promo-track">
-      <div class="promo-items">
-        <span>🌙 Ramadan Mubarak!</span>
-        <span>⭐ Exclusieve Ramadan Pakketten</span>
-        <span>🎁 Speciale Ramadan Rewards</span>
-        <span>💫 Community Iftar Events</span>
-        <span>🕌 Ramadan Thema Actief</span>
-      </div>
-      <div class="promo-items">
-        <span>🌙 Ramadan Mubarak!</span>
-        <span>⭐ Exclusieve Ramadan Pakketten</span>
-        <span>🎁 Speciale Ramadan Rewards</span>
-        <span>💫 Community Iftar Events</span>
-        <span>🕌 Ramadan Thema Actief</span>
-      </div>
+<div class="promo-items">
+  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY IS BEINA OPEN!</span>
+  <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
+  <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
+  <span class="promo-item">💎 PREMIUM RP ERVARING</span>
+  <span class="promo-item">👑 WORD EEN VAN DE EERSTE SPELERS</span>
+</div>
+<div class="promo-items">
+  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY IS BEINA OPEN!</span>
+  <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
+  <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
+  <span class="promo-item">💎 PREMIUM RP ERVARING</span>
+  <span class="promo-item">👑 WORD EEN VAN DE EERSTE SPELERS</span>
+</div>
     </div>
   </section>
 
   <header class="site-header">
     <nav class="navbar">
       <a class="logo" href="${homeAnchor}">
-        <img src="${logoSrc}" alt="Eindhoven Roleplay">
-        <span>Eindhoven Roleplay</span>
+        <img src="${logoSrc}" alt="Titan Roleplay">
+        <span>Titan Roleplay</span>
       </a>
 
       <div class="nav-links">
@@ -68,7 +68,7 @@ const navbarMarkup = `
         <a class="${isRulesPage ? "active" : ""}" href="${regelsHref}">APV</a>
         <a href="${donateAnchor}" target="_blank">Doneren</a>
         <a class="${isSolliciterenPage ? "active" : ""}" href="${applyAnchor}">Solliciteren</a>
-        <a href="https://discord.gg/eindhovenrp" target="_blank">Discord</a>
+        <a href="https://discord.gg/Titanrp" target="_blank">Discord</a>
       </div>
 
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ── Player count ──
 (function () {
   const API_URL =
-    "https://servers-frontend.fivem.net/api/servers/single/eq8a8d";
+    "https://servers-frontend.fivem.net/api/servers/single/bok8bd";
 
   async function update() {
     try {
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const data = await res.json();
       const online = data?.Data?.clients ?? 0;
-      const max = data?.Data?.sv_maxclients ?? 128;
+      const max = data?.Data?.sv_maxclients ?? 512;
 
       document.querySelectorAll(".online-count").forEach((el) => {
         el.textContent = `${online}/${max}`;
