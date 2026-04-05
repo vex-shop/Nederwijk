@@ -1,14 +1,27 @@
 :root {
   color-scheme: dark;
-  --primary: #59dce7;
-  --primary-dark: #2bb8c3;
-  --bg: #111111;
-  --surface: rgba(41, 41, 41, 0.6);
-  --surface-soft: rgba(41, 41, 41, 0.45);
-  --text: #eaf7f9;
-  --muted: #b0cdd4;
-  --border: rgba(255, 255, 255, 0.08);
-  --shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  
+  /* DE VIEZE DONKERBLAUWE KLEUR DIE JE WILT */
+  --bg: #0a101f;                    /* exact de achtergrondkleur van je screenshot */
+  
+  --surface: rgba(15, 22, 38, 0.95);     /* panels en cards */
+  --surface-soft: rgba(20, 28, 48, 0.80); /* zachtere overlays */
+  
+  --primary: #0a101f;                /* je neon cyan accent (blijft vet) */
+  --primary-dark: #0a101f;
+  
+  --text: #e0f0ff;
+  --muted: #a0b8d8;
+  
+  --border: rgba(35, 55, 95, 0.75);      /* diepe blauwe randen */
+  
+  --shadow: 0 30px 70px rgba(8, 14, 32, 0.9);
+  
+  /* Extra vieze blauwe tinten voor als je nog meer wilt aanpassen */
+  --accent-1: #0f1a2e;
+  --accent-2: #15243f;
+  --accent-3: #1e2f55;
+  --glow: rgba(89, 220, 231, 0.16);
 }
 
 * {
@@ -33,11 +46,11 @@ body {
 }
 
 body.rules-page {
-  background: #0d1822;
+  background: #0a0f1a;
 }
 
 body.solliciteren-page {
-  background: #0d1822;
+  background: #0a0f1a;
 }
 
 
@@ -80,7 +93,7 @@ img {
   z-index: 50;
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  background: rgba(41, 41, 41, 0.45);
+  background: rgba(26, 35, 56, 0.7);
   border-bottom: 1px solid var(--border);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
   transform: translateZ(0);
@@ -97,7 +110,7 @@ body:not(.home-page):not(.rules-page):not(.solliciteren-page) .site-header {
   left: 0;
   right: 0;
   z-index: 51;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #0f1b33, #16244a, #1e2f5f);
   border-bottom: 1px solid rgba(89, 220, 231, 0.2);
   overflow: hidden;
   height: 40px;
@@ -2694,7 +2707,7 @@ body.solliciteren-page .promo-bar {
   background:
     radial-gradient(ellipse at 30% 0%, rgba(89, 220, 231, 0.05) 0%, transparent 50%),
     radial-gradient(ellipse at 70% 100%, rgba(109, 123, 255, 0.04) 0%, transparent 50%),
-    linear-gradient(180deg, #0a0e14 0%, #0d1822 100%);
+    linear-gradient(180deg, #0a0e14 0%, #0a0f1a 100%);
   position: relative;
   overflow: hidden;
 }
