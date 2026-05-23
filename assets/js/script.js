@@ -40,18 +40,19 @@ const navbarMarkup = `
   <section class="promo-bar">
     <div class="promo-track">
 <div class="promo-items">
-  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY IS BEINA OPEN!</span>
-  <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
-  <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
-  <span class="promo-item">💎 PREMIUM RP ERVARING</span>
-  <span class="promo-item">👑 WORD EEN VAN DE EERSTE SPELERS</span>
+  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY OPENT BINNENKORT!</span>
+  <span class="promo-item">🔥 WEES KLAAR VOOR EEN NIEUWE START</span>
+  <span class="promo-item">🎁 GRATIS STARTBONUSSEN BIJ RELEASE</span>
+  <span class="promo-item">💎 ULTIEME PREMIUM ROLEPLAY ERVARING</span>
+  <span class="promo-item">👑 WORD ÉÉN VAN DE EERSTE SPELERS</span>
 </div>
 <div class="promo-items">
-  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY IS BEINA OPEN!</span>
-  <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
-  <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
-  <span class="promo-item">💎 PREMIUM RP ERVARING</span>
-  <span class="promo-item">👑 WORD EEN VAN DE EERSTE SPELERS</span>
+  <span class="promo-item">🚀 NEDERWIJK ROLEPLAY OPENT BINNENKORT!</span>
+  <span class="promo-item">🔥 WEES KLAAR VOOR EEN NIEUWE START</span>
+  <span class="promo-item">🎁 GRATIS STARTBONUSSEN BIJ RELEASE</span>
+  <span class="promo-item">💎 ULTIEME PREMIUM ROLEPLAY ERVARING</span>
+  <span class="promo-item">👑 WORD ÉÉN VAN DE EERSTE SPELERS</span>
+</div>
 </div>
     </div>
   </section>
