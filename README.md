@@ -4,7 +4,7 @@ De officiële website van **Nederwijk Roleplay** — een Nederlandse/Belgische F
 
 De website bevat informatie over de server, de Algemene Plaatselijke Verordening (APV), sollicitatiemogelijkheden en directe links naar onze Discord-community.
 
-## ✨ Functies
+## Functies
 
 * Moderne donkerblauwe Nederwijk-stijl
 * Volledig responsive voor desktop en mobiel
@@ -34,7 +34,7 @@ Sollicitatiemogelijkheden voor onder andere:
 
 De sollicitatieknoppen verwijzen rechtstreeks naar Discord.
 
-## 📌 Belangrijk
+## Belangrijk
 
 Publiceer nooit geheime tokens, API-keys, Discord-webhooks of andere privégegevens rechtstreeks in deze repository.
 
